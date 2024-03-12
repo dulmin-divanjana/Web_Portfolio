@@ -25,7 +25,9 @@
 
 
         body {
-            background-color: gold;
+            background-color: darkslategray; /*tempary*/
+            /*width: 100vw;
+            height: 100vh;*/
         }
 
 
@@ -56,7 +58,7 @@
 
         #home > #pic > img {
             width: 686px;
-            height: 523px;
+            height: 525px;
             left: 50px;
             opacity: 40%;
             position: relative;
@@ -77,21 +79,69 @@
             width: 743px;
             height: 956px;
             background-color: #181818;
+            border: solid 1px #9A0000;
             position: absolute;
             left: 70px;
             top: 684px;
         }
 
-        #home>div>#se{
+        #home > div > #se {
             color: #D9D9D9;
             font-size: 64px;
             font-weight: bold;
             font-family: "Saira", sans-serif;
             position: absolute;
             left: 650px;
-            top: 350px;
+            top: 320px;
         }
 
+        #home > div > #explore {
+            color: #D9D9D9;
+            font-size: 20px;
+            font-weight: normal;
+            font-family: "Saira", sans-serif;
+            position: absolute;
+            left: 650px;
+            top: 430px;
+
+        }
+
+        #home > #ab {
+            background-color: #9A0000;
+            width: 154px;
+            height: 52px;
+            position: absolute;
+            left: 650px;
+            top: 545px;
+            /*
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08), 0 2px 2px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.16), 0 8px 8px rgba(0, 0, 0, 0.20);
+            */
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07), 0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07), 0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+        }
+
+        #home > div > #am {
+            /*background-color: #9A0000;*/
+            /*width: 156px;
+            height: 56px;*/
+            font-family: "Roboto", sans-serif;
+            font-weight: bold;
+            font-size: 18px;
+            color: #D9D9D9;
+            position: absolute;
+            left: 680px;
+            top: 562px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        #home > #tgl > a > i {
+            background-color: #D9D9D9;
+            color: #D9D9D9;
+            width: 50px;
+            height: 50px;
+
+
+        }
 
     </style>
 </head>
@@ -130,7 +180,7 @@
     <div>
         <h3 id="hello">Hello Im Dulmin Kasthuriarachchi</h3>
         <h2 id="se">Software Engineer</h2>
-        <p>
+        <p id="explore">
             Explore my web portfolio! I'm a skilled software engineer dedicated to <br> creating cutting-edge solutions
             and
             delivering exceptional user
@@ -139,26 +189,27 @@
     </div>
     <br>
 
+    <div id="ab"></div>
     <div>
-        <a href="#about">
-            <button>ABOUT ME</button>
-        </a>
+        <a href="#about" id="am">ABOUT ME</a>
     </div>
     <br>
 
-    <div>
+    <div id="tgl">
 
-        <a href="https://twitter.com/home" id="tweeter x">
-            <img src="../assets/icons/icons8-twitterx-50.png" title="twitter" alt="twitter x icon" width="40"
-                 height="40"></a>
+        <a href="https://twitter.com/home" id="tweeter x" >im<i class="fa-brands fa-square-x-twitter"  style="color: #d9d9d9;"></i> </a>
+            <!-- <img src="../assets/icons/icons8-twitterx-50.png" title="twitter" alt="twitter x icon" width="40"
+                  height="40"></a>-->
 
-        <a href="https://github.com/dulmin-divanjana" id="github">
-            <img src="../assets/icons/icons8-github-64.png" title="github" alt="github icon" width="40"
-                 height="40"></a>
 
-        <a href="https://www.linkedin.com/feed/" id="linkedIn icon">
-            <img src="../assets/icons/icons8-linkedin-50.png" title="linkedIn" alt="linkedIn icon" width="40"
-                 height="40"></a>
+
+            <a href="https://github.com/dulmin-divanjana" id="github">
+                <img src="../assets/icons/icons8-github-64.png" title="github" alt="github icon" width="40"
+                     height="40"></a>
+
+            <a href="https://www.linkedin.com/feed/" id="linkedIn icon">
+                <img src="../assets/icons/icons8-linkedin-50.png" title="linkedIn" alt="linkedIn icon" width="40"
+                     height="40"></a>
     </div>
     <br>
 
