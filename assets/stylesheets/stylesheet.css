@@ -1,5 +1,9 @@
-body {
+/*body {
     background-color: #111111;
+}*/
+
+body{
+color: #eeeeee;
 }
 
 header > div > img {
@@ -142,7 +146,7 @@ header > div > nav > a:visited {
 }
 
 .glow-on-hover:active:after {
-    background: black;
+    background: transparent;
 }
 
 .glow-on-hover:hover:before {
