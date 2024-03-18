@@ -1,6 +1,10 @@
 body {
     background-color: #111111;
 }
+/*
+body {
+    background-color: cadetblue;
+}*/
 
 header > div > img {
     top: 0;
@@ -29,17 +33,17 @@ header > div > nav > a:visited {
     color: #9A0000;
 }
 
-#home > #pic > img {
+#home > #profile_image > img {
     width: 686px;
     height: 520px;
-    left: 50px;
+    left: 8px;
     top: 25px;
     opacity: 40%;
     position: absolute;
 
 }
 
-#home > div > #hello {
+#home > div > #name {
     font-family: "Saira", sans-serif;
     font-weight: bold;
     font-size: 32px;
@@ -49,17 +53,17 @@ header > div > nav > a:visited {
     top: 150px;
 }
 
-#home > #box {
+#home > #large_box {
     width: 773px;
     height: 956px;
-    background-color: greenyellow;
+    background-color: #181818;
     /*border: solid 1px #9A0000;*/
     position: absolute;
     right: 50%;
     top: 545px;
 }
 
-#home > div > #se {
+#home > div > #software {
     color: #D9D9D9;
     font-size: 64px;
     font-weight: bold;
@@ -69,7 +73,7 @@ header > div > nav > a:visited {
     top: 175px;
 }
 
-#home > div > #en {
+#home > div > #engineer {
     color: #D9D9D9;
     font-size: 64px;
     font-weight: bold;
@@ -79,15 +83,15 @@ header > div > nav > a:visited {
     top: 175px;
 }
 
-#se::first-letter {
+#software::first-letter {
     color: #9A0000;
 }
 
-#en::first-letter {
+#engineer::first-letter {
     color: #9A0000;
 }
 
-#home > div > #explore {
+#home > div > #small_about {
     color: #D9D9D9;
     font-size: 20px;
     font-weight: normal;
@@ -99,82 +103,25 @@ header > div > nav > a:visited {
 
 }
 
-/*add a animation for my about button*/
-.glow-on-hover {
+.about {
+    background-color: #9A0000;
+    color: #D9D9D9;
     width: 158px;
     height: 47px;
+    text-decoration: none;
     border: none;
     outline: none;
-    color: #fff;
-    background: #111;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
     cursor: pointer;
     position: absolute;
     left: 640px;
     top: 435px;
-    z-index: 0;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    font-size: 16px;
-    text-decoration: none;
-}
-
-.glow-on-hover:before {
-    content: '';
-    background: linear-gradient(100deg, gold, goldenrod, #9A0000);
-    position: absolute;
-    top: -1px;
-    left: -1px;
-    background-size: 400%;
-    z-index: -1;
-    filter: blur(2px);
-    width: calc(100% + 2px);
-    height: calc(100% + 2px);
-    animation: glowing 20s linear infinite;
-    opacity: 0;
-    transition: opacity .3s ease-in-out;
-    border-radius: 0;
 
 }
 
-.glow-on-hover:active {
-    color: #9A0000;
-
-}
-
-.glow-on-hover:active:after {
-    background: black;
-}
-
-.glow-on-hover:hover:before {
-    opacity: 1;
-}
-
-.glow-on-hover:after {
-    z-index: -1;
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #9A0000;
-    left: 0;
-    top: 0;
-    border-radius: 0;
-}
-
-@keyframes glowing {
-    0% {
-        background-position: 0 0;
-    }
-    50% {
-        background-position: 400% 0;
-    }
-    100% {
-        background-position: 0 0;
-    }
-}
-
-
-#home > #tgl > a > i {
+#home > #icons > a > i {
     background-color: #D9D9D9;
     color: #D9D9D9;
     width: 50px;
@@ -182,19 +129,19 @@ header > div > nav > a:visited {
 
 }
 
-#home > #tgl {
+#home > #icons {
     position: absolute;
     left: 840px;
     top: 443px;
 }
 
-#home > #tgl > a {
+#home > #icons > a {
     margin-right: 30px;
 }
 
 /*home section 3 boxes*/
 
-#home > #sb > * {
+#home > #small_box > * {
     width: 400px;
     height: 430px;
     background-color: #1E1E1E;
@@ -204,25 +151,25 @@ header > div > nav > a:visited {
     box-sizing: border-box;
 }
 
-#home > #sb > #sb1 {
+#home > #small_box > #small_box_1 {
     top: 630px;
     left: 135px;
 }
 
-#home > #sb > #sb2 {
+#home > #small_box > #small_box_2 {
     background-color: #9A0000;
     top: 630px;
     left: 50%;
     transform: translate(-50%);
 }
 
-#home > #sb > #sb3 {
+#home > #small_box > #small_box_3 {
 
     top: 630px;
     right: 135px;
 }
 
-#home > #home3boxes > h3 {
+#small_boxes > h3 {
     font-size: 20px;
     font-weight: 900;
     font-family: "Nunito Sans", sans-serif;
@@ -231,7 +178,7 @@ header > div > nav > a:visited {
     position: absolute;
 }
 
-#home3boxes > p {
+#small_boxes > p {
     font-size: 10px;
     font-weight: 300;
     font-family: "Nunito Sans", sans-serif;
@@ -240,51 +187,109 @@ header > div > nav > a:visited {
     position: absolute;
 }
 
-#home3boxes > img {
+#small_boxes > img {
     position: absolute;
 }
 
-#home3boxes > #ui {
+#small_boxes > #ui_design {
     top: 630px;
     left: 135px;
 }
 
-#home3boxes > #ui1 {
+#small_boxes > #ui_title {
     top: 680px;
     left: 150px;
 }
 
-#home3boxes > #ui2 {
+#small_boxes > #ui_paragraph {
     top: 700px;
     left: 200px;
 }
 
-#home3boxes > #pd {
+#small_boxes > #product_design {
     top: 630px;
     left: 700px;
 }
 
-#home3boxes > #pd1 {
+#small_boxes > #product_design_title {
     top: 680px;
     left: 700px;
 }
 
-#home3boxes > #pd2 {
+#small_boxes > #product_design_paragraph {
     top: 700px;
     left: 700px;
 }
 
-#home3boxes > #brand {
+#small_boxes > #branding {
     top: 630px;
     right: 200px;
 }
 
-#home3boxes > #brand1 {
+#small_boxes > #branding_title {
     top: 680px;
     right: 200px;
 }
 
-#home3boxes > #brand2 {
+#small_boxes > #branding_paragraph {
     top: 700px;
     right: 200px;
+}
+
+#year_experience > #one {
+    color: red;
+    font-weight: 900;
+    font-size: 200px;
+    font-family: "Saira", sans-serif;
+    position: absolute;
+    top: 900px;
+    left: 230px;
+
+}
+
+#year_experience > #year {
+    color: #D9D9D9;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Saira", sans-serif;
+    position: absolute;
+    top: 1250px;
+    left: 190px;
+}
+
+#home > #mini_box > * {
+    width: 400px;
+    height: 130px;
+    background-color: #1E1E1E;
+    position: absolute;
+}
+
+#mini_box > #mini_box_1 {
+    top: 1083px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#mini_box > #mini_box_2 {
+    top: 1085px;
+    right: 135px;
+}
+
+#mini_box > #mini_box_3 {
+    top: 1235px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#mini_box > #mini_box_4 {
+    top: 1235px;
+    right: 135px;
+}
+/*
+#home>#achievements{
+    font-family: ;
+    font-size: ;
+    font-weight: ;
+    color: #CB1D27;*/
+
 }
