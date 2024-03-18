@@ -249,9 +249,34 @@ header > div > nav > a:visited {
     color: blue;
 }
 
-#home > #mini_box {
+#home > #mini_box > * {
     width: 443px;
     height: 157px;
     background-color: #1E1E1E;
+    position: absolute;
 }
 
+/*#mini_box > #mini_box_1 {
+    top: 30px;
+    left: 400px;
+    font-family: "Saira", sans-serif;
+    color: #eeeeee;
+    text-align: center;
+    line-height: 70px;
+
+
+}*/
+#mini_box > #mini_box_1 {
+    top: 1000px;
+    right: 20px;
+
+}
+
+#mini_box > #mini_box_2 {
+}
+
+#mini_box > #mini_box_3 {
+}
+
+#mini_box > #mini_box_4 {
+}
