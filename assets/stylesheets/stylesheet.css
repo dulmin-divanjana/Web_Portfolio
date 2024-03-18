@@ -1,10 +1,10 @@
-/*body {
+body {
     background-color: #111111;
-}*/
-
+}
+/*
 body {
     background-color: cadetblue;
-}
+}*/
 
 header > div > img {
     top: 0;
@@ -56,8 +56,8 @@ header > div > nav > a:visited {
 #home > #large_box {
     width: 773px;
     height: 956px;
-    background-color: greenyellow;
-    /*border: solid 1px #9A0000;*/
+    background-color: #181818;
+    border: solid 1px #9A0000;
     position: absolute;
     right: 50%;
     top: 545px;
@@ -250,8 +250,8 @@ header > div > nav > a:visited {
 }
 
 #home > #mini_box > * {
-    width: 443px;
-    height: 157px;
+    width: 400px;
+    height: 130px;
     background-color: #1E1E1E;
     position: absolute;
 }
@@ -267,16 +267,24 @@ header > div > nav > a:visited {
 
 }*/
 #mini_box > #mini_box_1 {
-    top: 1000px;
-    right: 20px;
+    top: 1083px;
+    left: 50%;
+    transform: translate(-50%);
 
 }
 
 #mini_box > #mini_box_2 {
+    top: 1085px;
+    right: 135px;
 }
 
 #mini_box > #mini_box_3 {
+    top: 1235px;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 #mini_box > #mini_box_4 {
+    top: 1235px;
+    right: 135px;
 }
