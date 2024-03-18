@@ -33,7 +33,7 @@ header > div > nav > a:visited {
     color: #9A0000;
 }
 
-#home > #pic > img {
+#home > #profile_image > img {
     width: 686px;
     height: 520px;
     left: 50px;
@@ -43,7 +43,7 @@ header > div > nav > a:visited {
 
 }
 
-#home > div > #hello {
+#home > div > #name {
     font-family: "Saira", sans-serif;
     font-weight: bold;
     font-size: 32px;
@@ -53,7 +53,7 @@ header > div > nav > a:visited {
     top: 150px;
 }
 
-#home > #box {
+#home > #large_box {
     width: 773px;
     height: 956px;
     background-color: greenyellow;
@@ -63,7 +63,7 @@ header > div > nav > a:visited {
     top: 545px;
 }
 
-#home > div > #se {
+#home > div > #software {
     color: #D9D9D9;
     font-size: 64px;
     font-weight: bold;
@@ -73,7 +73,7 @@ header > div > nav > a:visited {
     top: 175px;
 }
 
-#home > div > #en {
+#home > div > #engineer {
     color: #D9D9D9;
     font-size: 64px;
     font-weight: bold;
@@ -83,15 +83,15 @@ header > div > nav > a:visited {
     top: 175px;
 }
 
-#se::first-letter {
+#software::first-letter {
     color: #9A0000;
 }
 
-#en::first-letter {
+#engineer::first-letter {
     color: #9A0000;
 }
 
-#home > div > #explore {
+#home > div > #small_about {
     color: #D9D9D9;
     font-size: 20px;
     font-weight: normal;
@@ -121,7 +121,7 @@ header > div > nav > a:visited {
 
 }
 
-#home > #tgl > a > i {
+#home > #icons > a > i {
     background-color: #D9D9D9;
     color: #D9D9D9;
     width: 50px;
@@ -129,19 +129,19 @@ header > div > nav > a:visited {
 
 }
 
-#home > #tgl {
+#home > #icons {
     position: absolute;
     left: 840px;
     top: 443px;
 }
 
-#home > #tgl > a {
+#home > #icons > a {
     margin-right: 30px;
 }
 
 /*home section 3 boxes*/
 
-#home > #sb > * {
+#home > #small_box > * {
     width: 400px;
     height: 430px;
     background-color: #1E1E1E;
@@ -151,25 +151,25 @@ header > div > nav > a:visited {
     box-sizing: border-box;
 }
 
-#home > #sb > #sb1 {
+#home > #small_box > #small_box_1 {
     top: 630px;
     left: 135px;
 }
 
-#home > #sb > #sb2 {
+#home > #small_box > #small_box_2 {
     background-color: #9A0000;
     top: 630px;
     left: 50%;
     transform: translate(-50%);
 }
 
-#home > #sb > #sb3 {
+#home > #small_box > #small_box_3 {
 
     top: 630px;
     right: 135px;
 }
 
-#home > #home3boxes > h3 {
+#small_boxes > h3 {
     font-size: 20px;
     font-weight: 900;
     font-family: "Nunito Sans", sans-serif;
@@ -178,7 +178,7 @@ header > div > nav > a:visited {
     position: absolute;
 }
 
-#home3boxes > p {
+#small_boxes > p {
     font-size: 10px;
     font-weight: 300;
     font-family: "Nunito Sans", sans-serif;
@@ -187,51 +187,71 @@ header > div > nav > a:visited {
     position: absolute;
 }
 
-#home3boxes > img {
+#small_boxes > img {
     position: absolute;
 }
 
-#home3boxes > #ui {
+#small_boxes > #ui_design {
     top: 630px;
     left: 135px;
 }
 
-#home3boxes > #ui1 {
+#small_boxes > #ui_title {
     top: 680px;
     left: 150px;
 }
 
-#home3boxes > #ui2 {
+#small_boxes > #ui_paragraph {
     top: 700px;
     left: 200px;
 }
 
-#home3boxes > #pd {
+#small_boxes > #product_design {
     top: 630px;
     left: 700px;
 }
 
-#home3boxes > #pd1 {
+#small_boxes > #product_design_title {
     top: 680px;
     left: 700px;
 }
 
-#home3boxes > #pd2 {
+#small_boxes > #product_design_paragraph {
     top: 700px;
     left: 700px;
 }
 
-#home3boxes > #brand {
+#small_boxes > #branding {
     top: 630px;
     right: 200px;
 }
 
-#home3boxes > #brand1 {
+#small_boxes > #branding_title {
     top: 680px;
     right: 200px;
 }
 
-#home3boxes > #brand2 {
+#small_boxes > #branding_paragraph {
     top: 700px;
     right: 200px;
 }
+
+#year_experience > #one {
+    color: red;
+    font-weight: bolder;
+    font-size: 260px;
+    font-family: "Saira", sans-serif;
+    position: absolute;
+
+}
+
+#year_experience > #year {
+    color: blue;
+}
+
+#home > #mini_box {
+    width: 100px;
+    height: 50px;
+    background-color: whitesmoke;
+}
+
