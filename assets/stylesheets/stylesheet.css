@@ -3,7 +3,7 @@
 }*/
 
 body{
-color: #eeeeee;
+background-color: lightskyblue;
 }
 
 header > div > img {
@@ -38,7 +38,7 @@ header > div > nav > a:visited {
     height: 520px;
     left: 50px;
     top: 25px;
-    opacity: 40%;
+    opacity: 80%;
     position: absolute;
 
 }
