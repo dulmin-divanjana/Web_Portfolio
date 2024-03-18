@@ -36,7 +36,7 @@ header > div > nav > a:visited {
 #home > #profile_image > img {
     width: 686px;
     height: 520px;
-    left: 50px;
+    left: 8px;
     top: 25px;
     opacity: 40%;
     position: absolute;
@@ -57,7 +57,7 @@ header > div > nav > a:visited {
     width: 773px;
     height: 956px;
     background-color: #181818;
-    border: solid 1px #9A0000;
+    /*border: solid 1px #9A0000;*/
     position: absolute;
     right: 50%;
     top: 545px;
@@ -238,15 +238,23 @@ header > div > nav > a:visited {
 
 #year_experience > #one {
     color: red;
-    font-weight: bolder;
-    font-size: 260px;
+    font-weight: 900;
+    font-size: 200px;
     font-family: "Saira", sans-serif;
     position: absolute;
+    top: 900px;
+    left: 230px;
 
 }
 
 #year_experience > #year {
-    color: blue;
+    color: #D9D9D9;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Saira", sans-serif;
+    position: absolute;
+    top: 1250px;
+    left: 190px;
 }
 
 #home > #mini_box > * {
@@ -256,21 +264,10 @@ header > div > nav > a:visited {
     position: absolute;
 }
 
-/*#mini_box > #mini_box_1 {
-    top: 30px;
-    left: 400px;
-    font-family: "Saira", sans-serif;
-    color: #eeeeee;
-    text-align: center;
-    line-height: 70px;
-
-
-}*/
 #mini_box > #mini_box_1 {
     top: 1083px;
     left: 50%;
     transform: translate(-50%);
-
 }
 
 #mini_box > #mini_box_2 {
@@ -287,4 +284,12 @@ header > div > nav > a:visited {
 #mini_box > #mini_box_4 {
     top: 1235px;
     right: 135px;
+}
+/*
+#home>#achievements{
+    font-family: ;
+    font-size: ;
+    font-weight: ;
+    color: #CB1D27;*/
+
 }
