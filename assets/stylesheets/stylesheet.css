@@ -286,3 +286,8 @@ header > div > nav > a:visited {
     top: 1235px;
     right: 135px;
 }
+
+#achievements > #achievement_1 > #achievement_2 > #achievement_3 > #achievement_4 {
+    color: #9A0000;
+    position: absolute;
+}
