@@ -291,28 +291,47 @@ header > div > nav > a:visited {
     color: #9A0000;
     position: absolute;
 }
-#achievements{
+
+#achievements {
     font-size: 70px;
     font-family: "Saira", sans-serif;
     font-weight: bold;
     color: #CB1D27;
+    position: absolute;
 }
 
-#achievements_02{
+#achievements_02 {
     font-size: 35px;
     font-family: "Nunito Sans", sans-serif;
-    font-weight:100;
+    font-weight: 100;
     color: #D9D9D9;
+    position: absolute;
 }
 
-/*
-#mini_box_1>#achievement_5{
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*}*/
 /*
