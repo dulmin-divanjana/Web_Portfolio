@@ -617,8 +617,8 @@ header > div > nav > a:visited {
     left: 250px;
 }
 
-#lets{
-font-size: 26px;
+#lets {
+    font-size: 26px;
     font-weight: normal;
     font-family: "Nunito Sans", sans-serif;
     position: absolute;
@@ -643,18 +643,55 @@ font-size: 26px;
     color: #d9d9d9;
 }
 
-/*
-font-size: 20px;
-font-weight: bolder;
-font-family: "Roboto", sans-serif;
-position: absolute;
-text-decoration: none;
-background-color: #CB1D27;
-width: 156px;
-height: 53px;
-border: none;
-outline: none;
-top: 3120px;
-left: 1070px;
-color: #d9d9d9;
-}*/
+#title_box_4 {
+    position: absolute;
+    width: 1334px;
+    height: 194px;
+    background-color: #1E1E1E;
+    top: 3730px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#get_to_know_more {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 38px;
+    font-weight: normal;
+    color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 3760px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#about_title {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 64px;
+    font-weight: bolder;
+    color: #9A0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 3810px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#white-line_2 {
+    width: 10px;
+    height: 2px;
+    color: #d9d9d9;
+    position: absolute;
+    top: 3810px;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
