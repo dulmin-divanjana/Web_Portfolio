@@ -440,3 +440,8 @@ header > div > nav > a:visited {
     left: 105px;
 }
 
+#nexo_live_chat{
+    position: absolute;
+    top: 1895px;
+    right: 105px;
+}
