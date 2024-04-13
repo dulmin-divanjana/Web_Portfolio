@@ -60,7 +60,8 @@ header > div > nav > a:visited {
     background-color: #181818;
     /*border: solid 1px #9A0000;*/
     position: absolute;
-    right: 50%;
+    right: 0;
+    left: 0;
     top: 545px;
 }
 
@@ -160,8 +161,9 @@ header > div > nav > a:visited {
 #home > #small_box > #small_box_2 {
     background-color: #9A0000;
     top: 630px;
-    left: 50%;
-    transform: translate(-50%);
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 #home > #small_box > #small_box_3 {
@@ -347,4 +349,15 @@ header > div > nav > a:visited {
     top: 1270px;
     right: 240px;
     position: absolute;
+}
+
+.title_box {
+    position: absolute;
+    width: 1334px;
+    height: 194px;
+    background-color: #1E1E1E;
+    top: 1400px;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
