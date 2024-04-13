@@ -595,3 +595,18 @@ header > div > nav > a:visited {
     left: 1070px;
     color: #d9d9d9;
 }
+
+#title_box_3 {
+    position: absolute;
+    width: 1386px;
+    height: 362px;
+    background-color: #181818;
+    top: 3280px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#lets_work_together{
+
+}
