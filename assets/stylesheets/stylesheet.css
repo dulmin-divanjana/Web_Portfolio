@@ -439,28 +439,28 @@ header > div > nav > a:visited {
     position: absolute;
     top: 1895px;
     left: 105px;
-    border: 1px solid red;
+    border: 2px solid black;
 }
 
 #nexo_live_chat {
     position: absolute;
     top: 1895px;
     right: 105px;
-    border: 1px solid red;
+    border: 2px solid black;
 }
 
 #apex_car_wash {
     position: absolute;
     top: 2495px;
     left: 105px;
-    border: 1px solid red;
+    border: 2px solid black;
 }
 
 #my_portfolio {
     position: absolute;
     top: 2495px;
     right: 105px;
-    border: 1px solid red;
+    border: 2px solid black;
 }
 
 #project_head_1 {
@@ -570,7 +570,7 @@ header > div > nav > a:visited {
     margin: auto;
 }
 
-#explore_more_project{
+#explore_more_project {
     font-weight: bolder;
     color: #d9d9d9;
     font-family: "Nunito Sans", sans-serif;
@@ -580,7 +580,7 @@ header > div > nav > a:visited {
     left: 270px;
 }
 
-#explore_button{
+#explore_button {
     font-size: 20px;
     font-weight: bolder;
     font-family: "Roboto", sans-serif;
@@ -607,6 +607,16 @@ header > div > nav > a:visited {
     margin: auto;
 }
 
-#lets_work_together{
+#lets_work_together {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: bolder;
+    color: #d9d9d9;
+    position: absolute;
+    font-size: 60px;
+    top: 3300px;
+    left: 250px;
+}
+
+#lets{
 
 }
