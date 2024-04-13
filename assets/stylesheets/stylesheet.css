@@ -426,15 +426,16 @@ header > div > nav > a:visited {
 }
 
 #project_3 {
-    /*top: 2300px;*/
-    left: 50px;
+    top: 2450px;
+    left: 55px;
     position: absolute;
     background-color: wheat;
 }
 
 #project_4 {
-    top: 19000px;
-    left: 600px;
+    top: 2450px;
+    right: 55px;
+    position: absolute;
     background-color: blueviolet;
 }
 
@@ -447,6 +448,17 @@ header > div > nav > a:visited {
 #nexo_live_chat {
     position: absolute;
     top: 1895px;
+    right: 105px;
+}
+
+#apex_car_wash{
+    position: absolute;
+    top: 2495px;
+    left: 105px;
+}
+#my_portfolio{
+    position: absolute;
+    top:2495px ;
     right: 105px;
 }
 
@@ -476,6 +488,8 @@ header > div > nav > a:visited {
     font-family: "Saira", sans-serif;
     color: #d9d9d9;
     position: absolute;
+    top:2880px ;
+    left: 55px;
 }
 
 #project_head_4 {
@@ -484,6 +498,8 @@ header > div > nav > a:visited {
     font-family: "Saira", sans-serif;
     color: #d9d9d9;
     position: absolute;
+    top: 2880px;
+    left: 775px;
 }
 
 #know_1 {
@@ -533,6 +549,10 @@ header > div > nav > a:visited {
     left: 775px;
 }
 
+#know_3{
+    top: 2900px;
+    left: 55px;
+}
 /*
 #project_head_1 {
     top: 1900px;
