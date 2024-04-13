@@ -409,57 +409,62 @@ header > div > nav > a:visited {
     width: 690px;
     height: 450px;
     background-color: #181818;
+/*    border: 1px solid honeydew;*/
 }
 
 #project_1 {
     top: 1850px;
     left: 55px;
     position: absolute;
-    background-color: #ff253a;
+   /* background-color: #ff253a;*/
 }
 
 #project_2 {
     top: 1850px;
     right: 55px;
     position: absolute;
-    background-color: #d9d9d9;
+   /* background-color: #d9d9d9;*/
 }
 
 #project_3 {
     top: 2450px;
     left: 55px;
     position: absolute;
-    background-color: wheat;
+   /* background-color: wheat;*/
 }
 
 #project_4 {
     top: 2450px;
     right: 55px;
     position: absolute;
-    background-color: blueviolet;
+    /*background-color: blueviolet;*/
 }
 
 #connect_4_game {
     position: absolute;
     top: 1895px;
     left: 105px;
+    border: 1px solid red;
 }
 
 #nexo_live_chat {
     position: absolute;
     top: 1895px;
     right: 105px;
+    border: 1px solid red;
 }
 
 #apex_car_wash{
     position: absolute;
     top: 2495px;
     left: 105px;
+    border: 1px solid red;
 }
 #my_portfolio{
     position: absolute;
     top:2495px ;
     right: 105px;
+    border: 1px solid red;
 }
 
 #project_head_1 {
@@ -550,8 +555,13 @@ header > div > nav > a:visited {
 }
 
 #know_3{
-    top: 2900px;
+    top: 2970px;
     left: 55px;
+}
+
+#know_4{
+    top: 2970px;
+    left: 775px;
 }
 /*
 #project_head_1 {
