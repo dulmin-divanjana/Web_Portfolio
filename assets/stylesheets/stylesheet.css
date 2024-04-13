@@ -374,10 +374,10 @@ header > div > nav > a:visited {
     position: absolute;
     width: 100%;
     height: 100%;
-    top: 1600px;
+    top: 1250px;
 }
 
-#project_title_2{
+#project_title_2 {
     font-family: "Nunito Sans", sans-serif;
     font-size: 64px;
     font-weight: bolder;
@@ -388,16 +388,55 @@ header > div > nav > a:visited {
     position: absolute;
     width: 100%;
     height: 100%;
-    top: 1600px;
+    top: 1300px;
 }
 
-.white-line {
-    width: 100px;
+#white-line {
+    width: 180px;
     height: 2px;
     background-color: #d9d9d9;
     position: absolute;
-    top: 1600px;
+    top: 1750px;
     left: 0;
     right: 0;
     margin: auto;
 }
+
+.project_box > * {
+    position: absolute;
+    width: 690px;
+    height: 450px;
+    background-color: #181818;
+}
+
+#project_1 {
+    top: 1850px;
+    left: 55px;
+    position: absolute;
+    background-color: #ff253a;
+}
+
+#project_2{
+    top: 1850px;
+    right: 55px;
+    position: absolute;
+    background-color: #d9d9d9;
+}
+#project_3{
+    /*top: 2300px;*/
+    left: 50px;
+    position: absolute;
+    background-color: wheat;
+}
+#project_4{
+    top: 19000px;
+    left: 600px;
+    background-color: blueviolet;
+}
+
+#connect_4_game{
+    position: absolute;
+    top: 1895px;
+    left: 105px;
+}
+
