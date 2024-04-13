@@ -1,5 +1,5 @@
 body {
-    background-color: #111111;
+    background-color: darkslategray;
 }
 
 /*
@@ -173,7 +173,7 @@ header > div > nav > a:visited {
 }
 
 #small_boxes > h3 {
-    font-size: 20px;
+    font-size: 37px;
     font-weight: 900;
     font-family: "Nunito Sans", sans-serif;
     font-style: normal;
@@ -182,8 +182,8 @@ header > div > nav > a:visited {
 }
 
 #small_boxes > p {
-    font-size: 10px;
-    font-weight: 300;
+    font-size: 21px;
+    font-weight: lighter;
     font-family: "Nunito Sans", sans-serif;
     font-style: normal;
     color: #d9d9d9;
@@ -192,50 +192,52 @@ header > div > nav > a:visited {
 
 #small_boxes > img {
     position: absolute;
+    width: 75px;
+    height: 75px;
 }
 
 #small_boxes > #ui_design {
-    top: 630px;
-    left: 135px;
+    top: 700px;
+    left: 170px;
 }
 
 #small_boxes > #ui_title {
-    top: 680px;
-    left: 150px;
+    top: 780px;
+    left: 170px;
 }
 
 #small_boxes > #ui_paragraph {
-    top: 700px;
-    left: 200px;
+    top: 880px;
+    left: 170px;
 }
 
 #small_boxes > #product_design {
-    top: 630px;
-    left: 700px;
+    top: 700px;
+    left: 590px;
 }
 
 #small_boxes > #product_design_title {
-    top: 680px;
-    left: 700px;
+    top: 780px;
+    left: 600px;
 }
 
 #small_boxes > #product_design_paragraph {
-    top: 700px;
+    top: 880px;
     left: 700px;
 }
 
 #small_boxes > #branding {
-    top: 630px;
-    right: 200px;
+    top: 700px;
+    right: 420px;
 }
 
 #small_boxes > #branding_title {
-    top: 680px;
-    right: 200px;
+    top: 780px;
+    right: 300px;
 }
 
 #small_boxes > #branding_paragraph {
-    top: 700px;
+    top: 880px;
     right: 200px;
 }
 
@@ -356,7 +358,7 @@ header > div > nav > a:visited {
     width: 1334px;
     height: 194px;
     background-color: #1E1E1E;
-    top: 1400px;
+    top: 1500px;
     left: 0;
     right: 0;
     margin: auto;
