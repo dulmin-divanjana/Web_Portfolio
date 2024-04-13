@@ -559,3 +559,39 @@ header > div > nav > a:visited {
     left: 775px;
 }
 
+#title_box_2 {
+    position: absolute;
+    width: 1370px;
+    height: 194px;
+    background-color: #181818;
+    top: 3050px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#explore_more_project{
+    font-weight: bolder;
+    color: #d9d9d9;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 60px;
+    position: absolute;
+    top: 3060px;
+    left: 270px;
+}
+
+#explore_button{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    text-decoration: none;
+    background-color: #CB1D27;
+    width: 156px;
+    height: 53px;
+    border: none;
+    outline: none;
+    top: 3120px;
+    left: 1070px;
+    color: #d9d9d9;
+}
