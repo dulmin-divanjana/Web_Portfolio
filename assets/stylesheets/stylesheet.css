@@ -409,35 +409,30 @@ header > div > nav > a:visited {
     width: 690px;
     height: 450px;
     background-color: #181818;
-/*    border: 1px solid honeydew;*/
 }
 
 #project_1 {
     top: 1850px;
     left: 55px;
     position: absolute;
-   /* background-color: #ff253a;*/
 }
 
 #project_2 {
     top: 1850px;
     right: 55px;
     position: absolute;
-   /* background-color: #d9d9d9;*/
 }
 
 #project_3 {
     top: 2450px;
     left: 55px;
     position: absolute;
-   /* background-color: wheat;*/
 }
 
 #project_4 {
     top: 2450px;
     right: 55px;
     position: absolute;
-    /*background-color: blueviolet;*/
 }
 
 #connect_4_game {
@@ -454,15 +449,16 @@ header > div > nav > a:visited {
     border: 1px solid red;
 }
 
-#apex_car_wash{
+#apex_car_wash {
     position: absolute;
     top: 2495px;
     left: 105px;
     border: 1px solid red;
 }
-#my_portfolio{
+
+#my_portfolio {
     position: absolute;
-    top:2495px ;
+    top: 2495px;
     right: 105px;
     border: 1px solid red;
 }
@@ -493,7 +489,7 @@ header > div > nav > a:visited {
     font-family: "Saira", sans-serif;
     color: #d9d9d9;
     position: absolute;
-    top:2880px ;
+    top: 2880px;
     left: 55px;
 }
 
@@ -514,7 +510,6 @@ header > div > nav > a:visited {
     color: #CB1D27;
     position: absolute;
     text-decoration: none;
-
 }
 
 #know_2 {
@@ -549,21 +544,18 @@ header > div > nav > a:visited {
     left: 55px;
 }
 
-#know_2{
+#know_2 {
     top: 2370px;
     left: 775px;
 }
 
-#know_3{
+#know_3 {
     top: 2970px;
     left: 55px;
 }
 
-#know_4{
+#know_4 {
     top: 2970px;
     left: 775px;
 }
-/*
-#project_head_1 {
-    top: 1900px;
-    position: absolute;*/
+
