@@ -205,6 +205,7 @@ header > div > nav > a:visited {
     left: 775px;
 }
 
+/*footer*/
 
 #nav_logo {
     left: 0;
@@ -265,6 +266,15 @@ header > div > nav > a:visited {
     height: 50px;
     top: 3600px;
     left: 270px;
+}
+
+#copyright{
+    position: absolute;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: "Saira", sans-serif;
+    top: 4700px;
+    color: #d9d9d9;
 }
 
 
