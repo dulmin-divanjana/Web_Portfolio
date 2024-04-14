@@ -600,6 +600,7 @@ header > div > nav > a:visited {
     top: 3120px;
     left: 1070px;
     color: #d9d9d9;
+    cursor: pointer;
 }
 
 #title_box_3 {
@@ -647,6 +648,7 @@ header > div > nav > a:visited {
     top: 3428px;
     left: 1150px;
     color: #d9d9d9;
+    cursor: pointer;
 }
 
 #title_box_4 {
@@ -942,17 +944,14 @@ header > div > nav > a:visited {
     cursor: pointer;
 }
 
-
-/* font-size: 24px;
-    font-weight: bolder;
-    font-family: "Roboto", sans-serif;
+#title_box_5 {
     position: absolute;
-    text-decoration: none;
-    background-color: #CB1D27;
-    width: 194px;
-    height: 69px;
-    border: none;
-    outline: none;
-    top: 3428px;
-    left: 4300px;
-    color: #d9d9d9;*/
+    width: 1334px;
+    height: 194px;
+    background-color: #1E1E1E;
+    top: 5540px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
