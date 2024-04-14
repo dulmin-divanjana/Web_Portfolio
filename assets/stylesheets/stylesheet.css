@@ -705,20 +705,36 @@ header > div > nav > a:visited {
 #about_hello {
     font-weight: bolder;
     font-size: 39px;
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Saira", sans-serif;
     color: #CB1D27;
     position: absolute;
     top: 3965px;
     left: 130px;
 }
 
-#paragraph {
-    font-family: "Nunito Sans", sans-serif;
+.paragraph_about {
+    font-family: "Saira", sans-serif;
     font-size: 25px;
-    font-weight: lighter;
+    font-weight: 100;
     color: #d9d9d9;
     position: absolute;
+}
+
+#about_dulmin_image{
+    position: absolute;
+    top: 3990px;
+    right: 100px;
+    width: 544px;
+    height: 601px;
+}
+
+#paragraph_about_1 {
     top: 4070px;
+    left: 130px;
+}
+
+#paragraph_about_2 {
+    top: 4250px;
     left: 130px;
 }
 
@@ -750,10 +766,11 @@ header > div > nav > a:visited {
     width: 864px;
     height: 618px;
     position: absolute;
-    top: 4450px;
+    top: 4590px;
     left: 50%;
     background-color: #181818;
 }
+
 
 
 
@@ -772,7 +789,7 @@ header > div > nav > a:visited {
     font-family: "Saira", sans-serif;
     position: absolute;
     top: 4450px;
-    left: 230px;
+    right: 100px;
 }
 
 #year_experience_1 > #year_1 {
@@ -781,8 +798,8 @@ header > div > nav > a:visited {
     font-weight: bold;
     font-family: "Saira", sans-serif;
     position: absolute;
-    top: 1250px;
-    left: 190px;
+    top: 4900px;
+    right: 190px;
 }
 
 #mini_box_about > * {
