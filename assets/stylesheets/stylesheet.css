@@ -685,13 +685,14 @@ header > div > nav > a:visited {
 }
 
 #white-line_2 {
-    width: 10px;
+    width: 100px;
     height: 2px;
-    color: #d9d9d9;
+    background-color: #d9d9d9;
     position: absolute;
-    top: 3810px;
+    top: 3895px;
     left: 0;
     right: 0;
     margin: auto;
 
 }
+
