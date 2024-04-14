@@ -720,7 +720,7 @@ header > div > nav > a:visited {
     position: absolute;
 }
 
-#about_dulmin_image{
+#about_dulmin_image {
     position: absolute;
     top: 3990px;
     right: 100px;
@@ -763,7 +763,7 @@ header > div > nav > a:visited {
     left: 270px;
 }
 
-#large_box_2{
+#large_box_2 {
     width: 864px;
     height: 465px;
     position: absolute;
@@ -885,16 +885,43 @@ header > div > nav > a:visited {
     position: absolute;
 }
 
-#assignment_box{
+#assignment_box {
     width: 1386px;
     height: 362px;
     background-color: #181818;
     position: absolute;
-    top: 5000px;
+    top: 5090px;
     left: 0;
     right: 0;
     margin: auto;
 }
 
+#assignment_title {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: bolder;
+    color: #d9d9d9;
+    font-size: 64px;
+    position: absolute;
+    top: 5150px;
+    left: 160px;
 
+}
+
+#assignment {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    top: 5190px;
+    left: 611px;
+}
+
+#assignment_about_text{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: lighter;
+    color: #d9d9d9;
+    font-size: 28px;
+    position: absolute;
+    top: 5150px;
+    left: 160px;
+}
 
