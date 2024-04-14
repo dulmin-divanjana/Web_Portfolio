@@ -1,0 +1,35 @@
+body {
+    background-color: darkslategray;
+}
+
+/*
+body {
+    background-color: cadetblue;
+}*/
+
+header > div > img {
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+header > div > nav {
+    top: 35px;
+    right: 200px;
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 19px;
+
+}
+
+header > div > nav > a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+header > div > nav > a:visited {
+    color: #9A0000;
+}
