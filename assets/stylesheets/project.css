@@ -28,6 +28,17 @@ header > div > nav > a:visited {
     color: #9A0000;
 }
 
+#title_box {
+    position: absolute;
+    width: 1334px;
+    height: 194px;
+    background-color: #1E1E1E;
+    top: 1580px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
 #project_title_1 {
     font-family: "Nunito Sans", sans-serif;
     font-size: 38px;
@@ -193,3 +204,67 @@ header > div > nav > a:visited {
     top: 2970px;
     left: 775px;
 }
+
+
+#nav_logo {
+    left: 0;
+    top: 3500px;
+    position: absolute;
+}
+
+#footer {
+    position: absolute;
+    width: 100% vw;
+    height: 150px;
+    background-color: #181818;
+    top: 3570px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#footer_nav {
+    top: 3500px;
+    right: 200px;
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 19px;
+}
+
+#footer_nav > a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+#footer_nav > a:visited {
+    color: #9A0000;
+}
+
+/*#twitter_2 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 4570px;
+    left: 130px;
+}
+
+#github_2 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 4570px;
+    left: 200px;
+}
+
+#linkedin_2 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 4570px;
+    left: 270px;
+}*/
+
+
