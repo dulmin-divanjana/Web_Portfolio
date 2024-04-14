@@ -772,16 +772,7 @@ header > div > nav > a:visited {
     background-color: #181818;
 }
 
-
-
-
-
-
-
-
-
-
-
+/*about section box*/
 
 #year_experience_1 > #one_1 {
     color: #CB1D27;
@@ -832,14 +823,6 @@ header > div > nav > a:visited {
     left: 135px;
 }
 
-
-
-
-
-
-
-
-
 .achievement {
     color: #9A0000;
     font-weight: bold;
@@ -878,33 +861,26 @@ header > div > nav > a:visited {
     font-family: "Nunito Sans", sans-serif;
 }
 
-
-
-
-
-
-
-
 #achievement_5x {
-    top: 1125px;
-    left: 720px;
+    top: 4713px;
+    left: 295px;
     position: absolute;
 }
 
 #achievement_6x {
-    top: 1125px;
-    right: 225px;
+    top: 4713px;
+    right: 650px;
     position: absolute;
 }
 
 #achievement_7x {
-    top: 1270px;
-    left: 625px;
+    top: 4865px;
+    left: 205px;
     position: absolute;
 }
 
 #achievement_8x {
-    top: 1270px;
-    right: 240px;
+    top: 4865px;
+    right: 655px;
     position: absolute;
 }
