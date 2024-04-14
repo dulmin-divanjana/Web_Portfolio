@@ -810,25 +810,25 @@ header > div > nav > a:visited {
 }
 
 #mini_box_11 {
-    top: 1083px;
+    top: 4670px;
     left: 50%;
     transform: translate(-50%);
 }
 
 #mini_box_22 {
-    top: 1085px;
-    right: 135px;
+    top: 4670px;
+    left: 139px;
 }
 
 #mini_box_33 {
-    top: 1235px;
+    top: 4825px;
     left: 50%;
     transform: translate(-50%);
 }
 
 #mini_box_44 {
-    top: 1235px;
-    right: 135px;
+    top: 4825px;
+    left: 135px;
 }
 
 .achievement {
@@ -839,26 +839,26 @@ header > div > nav > a:visited {
 }
 
 #achievement_1x {
-    top: 1020px;
-    left: 720px;
+    top: 4610px;
+    left: 300px;
     position: absolute;
 }
 
 #achievement_2x {
-    top: 1020px;
-    right: 310px;
+    top: 4610px;
+    right: 730px;
     position: absolute;
 }
 
 #achievement_3x {
-    top: 1170px;
-    left: 720px;
+    top: 4760px;
+    left: 300px;
     position: absolute;
 }
 
 #achievement_4x {
-    top: 1170px;
-    right: 320px;
+    top: 4760px;
+    right: 730px;
     position: absolute;
 }
 
