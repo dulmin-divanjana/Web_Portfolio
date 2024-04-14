@@ -884,3 +884,17 @@ header > div > nav > a:visited {
     right: 655px;
     position: absolute;
 }
+
+#assignment_box{
+    width: 1386px;
+    height: 362px;
+    background-color: #181818;
+    position: absolute;
+    top: 5000px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+
