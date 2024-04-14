@@ -39,7 +39,7 @@ header > div > nav > a:visited {
     height: 520px;
     left: 8px;
     top: 25px;
-    opacity: 40%;
+    opacity: 50%;
     position: absolute;
 
 }
@@ -726,6 +726,7 @@ header > div > nav > a:visited {
     right: 100px;
     width: 544px;
     height: 590px;
+    opacity: 50%;
 }
 
 #paragraph_about_1 {
@@ -742,7 +743,7 @@ header > div > nav > a:visited {
     position: absolute;
     width: 50px;
     height: 50px;
-    top: 4580px;
+    top: 4570px;
     left: 130px;
 }
 
@@ -750,7 +751,7 @@ header > div > nav > a:visited {
     position: absolute;
     width: 50px;
     height: 50px;
-    top: 4580px;
+    top: 4570px;
     left: 200px;
 }
 
@@ -758,13 +759,13 @@ header > div > nav > a:visited {
     position: absolute;
     width: 50px;
     height: 50px;
-    top: 4580px;
+    top: 4570px;
     left: 270px;
 }
 
 #large_box_2{
     width: 864px;
-    height: 618px;
+    height: 465px;
     position: absolute;
     top: 4580px;
     left: 50%;
@@ -788,8 +789,8 @@ header > div > nav > a:visited {
     font-size: 200px;
     font-family: "Saira", sans-serif;
     position: absolute;
-    top: 4450px;
-    right: 100px;
+    top: 4500px;
+    right: 200px;
 }
 
 #year_experience_1 > #year_1 {
@@ -798,8 +799,8 @@ header > div > nav > a:visited {
     font-weight: bold;
     font-family: "Saira", sans-serif;
     position: absolute;
-    top: 4900px;
-    right: 190px;
+    top: 4845px;
+    right: 150px;
 }
 
 #mini_box_about > * {
@@ -831,6 +832,14 @@ header > div > nav > a:visited {
     left: 135px;
 }
 
+
+
+
+
+
+
+
+
 .achievement {
     color: #9A0000;
     font-weight: bold;
@@ -858,7 +867,7 @@ header > div > nav > a:visited {
 
 #achievement_4x {
     top: 4760px;
-    right: 730px;
+    right: 739px;
     position: absolute;
 }
 
@@ -868,6 +877,13 @@ header > div > nav > a:visited {
     font-size: 30px;
     font-family: "Nunito Sans", sans-serif;
 }
+
+
+
+
+
+
+
 
 #achievement_5x {
     top: 1125px;
