@@ -708,7 +708,7 @@ header > div > nav > a:visited {
     font-family: "Saira", sans-serif;
     color: #CB1D27;
     position: absolute;
-    top: 3965px;
+    top: 4085px;
     left: 130px;
 }
 
@@ -725,16 +725,16 @@ header > div > nav > a:visited {
     top: 3990px;
     right: 100px;
     width: 544px;
-    height: 601px;
+    height: 590px;
 }
 
 #paragraph_about_1 {
-    top: 4070px;
+    top: 4170px;
     left: 130px;
 }
 
 #paragraph_about_2 {
-    top: 4250px;
+    top: 4350px;
     left: 130px;
 }
 
@@ -742,7 +742,7 @@ header > div > nav > a:visited {
     position: absolute;
     width: 50px;
     height: 50px;
-    top: 4450px;
+    top: 4580px;
     left: 130px;
 }
 
@@ -750,7 +750,7 @@ header > div > nav > a:visited {
     position: absolute;
     width: 50px;
     height: 50px;
-    top: 4450px;
+    top: 4580px;
     left: 200px;
 }
 
@@ -758,7 +758,7 @@ header > div > nav > a:visited {
     position: absolute;
     width: 50px;
     height: 50px;
-    top: 4450px;
+    top: 4580px;
     left: 270px;
 }
 
@@ -766,7 +766,7 @@ header > div > nav > a:visited {
     width: 864px;
     height: 618px;
     position: absolute;
-    top: 4590px;
+    top: 4580px;
     left: 50%;
     background-color: #181818;
 }
