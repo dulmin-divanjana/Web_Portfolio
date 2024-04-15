@@ -78,48 +78,51 @@ header > div > nav > a:visited {
 }
 
 #assignment_1 {
-    top: 450px;
-    left: 30px;
+    top: 445px;
+    left: 130px;
 }
 
 #assignment_2 {
-    top: 700px;
+    top: 720px;
     left: 50%;
     transform: translate(-50%, -50%)
 }
 
 #assignment_3 {
-    top: 300px;
-    right: 20px;
+    top: 445px;
+    right: 130px;
 }
 
 #assignment_4 {
-    top: 1000px;
-    right: 100px;
+    top: 1025px;
+    right: 130px;
 }
 
 #assignment_5 {
     top: 1300px;
     left: 50%;
     transform: translate(-50%, -50%)
-
-
 }
 
 #assignment_6 {
-    top: 4000px;
+    top: 1025px;
+    left: 130px;
 }
 
 #assignment_7 {
-    top: 4000px;
+    top: 1605px;
+    left: 130px;
 }
 
 #assignment_8 {
-    top: 4000px;
+    top: 1880px;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
 
 #assignment_9 {
-    top: 5000px;
+    top: 1605px;
+    right: 130px;
 }
 
 /*footer*/
@@ -136,15 +139,18 @@ header > div > nav > a:visited {
     width: 100% vw;
     height: 150px;
     background-color: #181818;
-    top: 3570px;
+    top: 2270px;
     left: 0;
     right: 0;
     margin: auto;
 }
 
 #footer_nav {
-    top: 3500px;
-    right: 200px;
+    top: 2230px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: auto;
     position: absolute;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
