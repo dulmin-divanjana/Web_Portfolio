@@ -125,8 +125,12 @@ header > div > nav > a:visited {
     right: 130px;
 }
 
-/*footer*/
+#assignment>h3{
+    font-size: 100px;
+}
 
+
+/*footer*/
 
 #nav_logo {
     left: 300px;
