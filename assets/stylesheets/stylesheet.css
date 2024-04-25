@@ -999,13 +999,57 @@ header > div > nav > a:visited {
 
 }
 
-#skill_1 {
+#skill_box > * {
     position: absolute;
-    top: 100px;
-    left: 100px;
+    width: 428px;
+    height: 488px;
+    background-color: #181818;
+}
+
+#sk_1 {
+    top: 5830px;
+    left: 85px;
+}
+
+#sk_2 {
+    top: 6074px;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+#sk_3 {
+    top: 5830px;
+    right: 85px;
+}
+
+#sk_4 {
+    top: 6350px;
+    left: 85px;
+}
+
+#sk_5 {
+    top: 6595px;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+#sk_6 {
+    top: 6350px;
+    right: 85px;
+}
+
+
+#skill_1 {
+    top: 5830px;
+    left: 85px;
+    position: absolute;
 }
 
 #skill_2 {
+    position: absolute;
+    top: 6074px;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
 
 #skill_3 {
@@ -1020,11 +1064,3 @@ header > div > nav > a:visited {
 #skill_6 {
 }
 
-#skill_7 {
-}
-
-#skill_8 {
-}
-
-#skill_9 {
-}
