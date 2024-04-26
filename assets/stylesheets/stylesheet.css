@@ -1207,43 +1207,104 @@ header > div > nav > a:visited {
 }
 
 
+#forms > div > label {
+    color: #d9d9d9;
+    font-family: "Roboto", sans-serif;
+    font-size: 27px;
+    font-weight: lighter;
+    position: absolute;
+}
 
+#label_1 {
+    top: 7280px;
+    left: 100px;
+}
 
+#label_2 {
+    top: 7280px;
+    right: 100px;
+}
 
+#label_3 {
+    top: 7475px;
+    left: 100px;
+}
 
+#label_4 {
+    top: 7475px;
+    right: 100px;
+}
 
+#forms > div > input {
+    background-color: #111111;
+    width: 484px;
+    height: 60px;
+    border: 1px solid #CB1D27;
+    position: absolute;
+    color: #d9d9d9;
+    font-size: 25px;
+    font-weight: lighter;
+    font-family: "Roboto", sans-serif;
+}
 
+#first_name {
+    top: 7325px;
+    left: 100px;
+}
 
+#last_name {
+    top: 7325px;
+    right: 100px;
+}
 
+#email {
+    top: 7525px;
+    left: 100px;
+}
 
+#phone_number {
+    top: 7525px;
+    right: 100px;
+}
 
+#topic {
+    top: 7675px;
+    left: 100px;
+}
 
+#topics {
+    position: absolute;
+    top: 7725px;
+    left: 100px;
+    width: 1122px;
+    height: 60px;
+    background-color: #111111;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+    color: #d9d9d9;
+    border: 1px solid #CB1D27;
+}
 
+#message_label {
+    position: absolute;
+    top: 7855px;
+    left: 100px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#message {
+    position: absolute;
+    top: 7950px;
+    left: 100px;
+    width: 1122px;
+    height: 268px;
+    border: 1px solid #CB1D27;
+    font-weight: lighter;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    color: #d9d9d9;
+    background-color: #111111;
+}
 
 
 #nav_logo {
@@ -1313,7 +1374,7 @@ header > div > nav > a:visited {
     right: 640px;
 }
 
-#copyright{
+#copyright {
     position: absolute;
     font-size: 16px;
     font-weight: normal;
