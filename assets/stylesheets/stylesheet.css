@@ -1040,27 +1040,53 @@ header > div > nav > a:visited {
 
 
 #skill_1 {
-    top: 5830px;
-    left: 85px;
+    top: 5870px;
+    left: 125px;
     position: absolute;
 }
 
 #skill_2 {
     position: absolute;
-    top: 6074px;
+    top: 5870px;
     left: 50%;
-    transform: translate(-50%, -50%)
 }
 
 #skill_3 {
+    position: absolute;
+    top: 5870px;
+    right: 100px;
 }
 
 #skill_4 {
+    position: absolute;
+    top: 6390px;
+    left: 200px;
 }
 
 #skill_5 {
+    position: absolute;
+    top: 6390px;
+    left: 50%;
 }
 
 #skill_6 {
+    position: absolute;
+    top: 6390px;
+    right: 100px;
 }
 
+#skill > div > h3 {
+    font-size: 42px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: bolder;
+    color: #d9d9d9;
+    position: absolute;
+}
+
+#skill > div > p {
+    font-weight: lighter;
+    font-family: "Nunito Sans", sans-serif;
+    color: #d9d9d9;
+    font-size: 22px;
+    position: absolute;
+}
