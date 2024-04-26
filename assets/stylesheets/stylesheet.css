@@ -1002,7 +1002,7 @@ header > div > nav > a:visited {
 #skill_box > * {
     position: absolute;
     width: 428px;
-    height: 488px;
+    height: 470px;
     background-color: #181818;
 }
 
@@ -1012,7 +1012,7 @@ header > div > nav > a:visited {
 }
 
 #sk_2 {
-    top: 6074px;
+    top: 6066px;
     left: 50%;
     transform: translate(-50%, -50%)
 }
@@ -1023,56 +1023,56 @@ header > div > nav > a:visited {
 }
 
 #sk_4 {
-    top: 6350px;
+    top: 6335px;
     left: 85px;
 }
 
 #sk_5 {
-    top: 6595px;
+    top: 6571px;
     left: 50%;
     transform: translate(-50%, -50%)
 }
 
 #sk_6 {
-    top: 6350px;
+    top: 6335px;
     right: 85px;
 }
 
 
 #skill_1 {
-    top: 5870px;
+    top: 5890px;
     left: 125px;
     position: absolute;
 }
 
 #skill_2 {
     position: absolute;
-    top: 5870px;
-    left: 50%;
+    top: 5890px;
+    left: 580px;
 }
 
 #skill_3 {
     position: absolute;
-    top: 5870px;
-    right: 100px;
+    top: 5890px;
+    right: 400px;
 }
 
 #skill_4 {
     position: absolute;
-    top: 6390px;
-    left: 200px;
+    top: 6410px;
+    left: 125px;
 }
 
 #skill_5 {
     position: absolute;
-    top: 6390px;
-    left: 50%;
+    top: 6410px;
+    left: 580px;
 }
 
 #skill_6 {
     position: absolute;
-    top: 6390px;
-    right: 100px;
+    top: 6410px;
+    right: 390px;
 }
 
 #skill > div > h3 {
@@ -1092,61 +1092,61 @@ header > div > nav > a:visited {
 }
 
 #title_1 {
-    top: 5870px;
-    left: 100px;
+    top: 5990px;
+    left: 125px;
 }
 
 #title_2 {
-    top: 5870px;
-    left: 500px;
+    top: 5990px;
+    left: 586px;
 }
 
 #title_3 {
-    top: 5870px;
-    right: 100px;
+    top: 5990px;
+    right: 290px;
 }
 
 #title_4 {
-    top: 6390px;
-    left: 100px;
+    top: 6500px;
+    left: 125px;
 }
 
 #title_5 {
-    top: 6390px;
-    left: 500px;
+    top: 6500px;
+    left: 586px;
 }
 
 #title_6 {
-    top: 6390px;
-    right: 100px;
+    top: 6500px;
+    right: 140px;
 }
 
 #p1 {
-    top: 5870px;
-    left: 100px;
+    top: 6110px;
+    left: 125px;
 }
 
 #p2 {
-    top: 5870px;
-    left: 500px;
+    top: 6110px;
+    left: 590px;
 }
 
 #p3 {
-    top: 5870px;
-    right: 100px;
+    top: 6110px;
+    right: 195px;
 }
 
 #p4 {
-    top: 6390px;
-    left: 100px;
+    top: 6630px;
+    left: 125px;
 }
 
 #p5 {
-    top: 6390px;
-    left: 500px;
+    top: 6630px;
+    left: 590px;
 }
 
 #p6 {
-    top: 6390px;
-    right: 100px;
+    top: 6630px;
+    right: 150px;
 }
