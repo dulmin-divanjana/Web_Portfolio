@@ -1090,3 +1090,63 @@ header > div > nav > a:visited {
     font-size: 22px;
     position: absolute;
 }
+
+#title_1 {
+    top: 5870px;
+    left: 100px;
+}
+
+#title_2 {
+    top: 5870px;
+    left: 500px;
+}
+
+#title_3 {
+    top: 5870px;
+    right: 100px;
+}
+
+#title_4 {
+    top: 6390px;
+    left: 100px;
+}
+
+#title_5 {
+    top: 6390px;
+    left: 500px;
+}
+
+#title_6 {
+    top: 6390px;
+    right: 100px;
+}
+
+#p1 {
+    top: 5870px;
+    left: 100px;
+}
+
+#p2 {
+    top: 5870px;
+    left: 500px;
+}
+
+#p3 {
+    top: 5870px;
+    right: 100px;
+}
+
+#p4 {
+    top: 6390px;
+    left: 100px;
+}
+
+#p5 {
+    top: 6390px;
+    left: 500px;
+}
+
+#p6 {
+    top: 6390px;
+    right: 100px;
+}
