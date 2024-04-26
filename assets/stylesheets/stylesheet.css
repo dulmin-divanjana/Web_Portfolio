@@ -1065,7 +1065,7 @@ header > div > nav > a:visited {
 
 #skill_5 {
     position: absolute;
-    top: 6410px;
+    top: 6405px;
     left: 580px;
 }
 
@@ -1205,3 +1205,124 @@ header > div > nav > a:visited {
     justify-content: center;
     align-items: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#nav_logo {
+    left: 300px;
+    top: 1720px;
+    position: absolute;
+}
+
+#footer {
+    position: absolute;
+    width: 100% vw;
+    height: 150px;
+    background-color: #181818;
+    top: 1700px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#footer_navigation {
+    top: 1695px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 19px;
+}
+
+#footer_nav > a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+#footer_nav > a:visited {
+    color: #9A0000;
+}
+
+#twitter_22 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 1750px;
+    left: 640px;
+}
+
+#github_22 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 1750px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    align-items: center;
+}
+
+#linkedin_22 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 1750px;
+    right: 640px;
+}
+
+#copyright{
+    position: absolute;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "Saira", sans-serif;
+    top: 1820px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #d9d9d9;
+}
+
+
