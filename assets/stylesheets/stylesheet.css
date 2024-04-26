@@ -1,11 +1,6 @@
 body {
-    background-color: darkslategray;
+    background-color: black;
 }
-
-/*
-body {
-    background-color: cadetblue;
-}*/
 
 header > div > img {
     top: 0;
@@ -39,7 +34,7 @@ header > div > nav > a:visited {
     height: 520px;
     left: 8px;
     top: 25px;
-    opacity: 50%;
+    opacity: 30%;
     position: absolute;
 
 }
@@ -728,7 +723,7 @@ header > div > nav > a:visited {
     right: 100px;
     width: 544px;
     height: 590px;
-    opacity: 50%;
+    opacity: 30%;
 }
 
 #paragraph_about_1 {
