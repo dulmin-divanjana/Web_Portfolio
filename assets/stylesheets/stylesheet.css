@@ -1150,3 +1150,58 @@ header > div > nav > a:visited {
     top: 6630px;
     right: 150px;
 }
+
+
+#title_box_6 {
+    position: absolute;
+    width: 1334px;
+    height: 194px;
+    background-color: #1E1E1E;
+    top: 6920px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#white-line_4 {
+    width: 100px;
+    height: 2px;
+    background-color: #d9d9d9;
+    position: absolute;
+    top: 7092px;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+#contact_title {
+    position: absolute;
+    top: 6950px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 38px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: normal;
+    color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#contact_title_2 {
+    position: absolute;
+    top: 7010px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 64px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: bolder;
+    color: #CB1D27;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
