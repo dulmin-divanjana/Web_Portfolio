@@ -445,28 +445,28 @@ header > div > nav > a:visited {
     position: absolute;
     top: 1895px;
     left: 105px;
-    border: 2px solid black;
+    border: 2px solid #181818;
 }
 
 #nexo_live_chat {
     position: absolute;
     top: 1895px;
     right: 105px;
-    border: 2px solid black;
+    border: 2px solid #181818;
 }
 
 #apex_car_wash {
     position: absolute;
     top: 2495px;
     left: 105px;
-    border: 2px solid black;
+    border: 2px solid #181818;
 }
 
 #my_portfolio {
     position: absolute;
     top: 2495px;
     right: 105px;
-    border: 2px solid black;
+    border: 2px solid #181818;
 }
 
 #project_head_1 {
@@ -1305,6 +1305,97 @@ header > div > nav > a:visited {
     color: #d9d9d9;
     background-color: #111111;
 }
+
+#message_1{
+    position: absolute;
+    top: 7900px;
+    left: 100px;
+}
+
+#terms{
+    position: absolute;
+    top: 8260px;
+    left: 150px;
+    color: #d9d9d9;
+    font-family: "Roboto", sans-serif;
+    font-size: 27px;
+    font-weight: lighter;
+
+}
+/*#checkbox{*/
+/*    position: absolute;*/
+/*    top: 8400px;*/
+/*   !* width: 30px;*/
+/*    height: 30px;*/
+/*    background-color: #111111;*/
+/*    color: #CB1D27;*/
+/*    border: 1px solid #CB1D27;*!*/
+/*    width: 30px; !* Set the width *!*/
+/*    height: 30px; !* Set the height *!*/
+
+/*    border: 2px solid red; !* Add border and set color *!*/
+/*    border-radius: 4px; !* Add rounded corners *!*/
+/*    outline: none; !* Remove outline *!*/
+/*    cursor: pointer; !* Change cursor to pointer on hover *!*/
+/*}*/
+
+/*
+!* CSS for styling the checkbox *!
+input[type="checkbox"] {
+    position: absolute;
+    top: 8400px;
+    width: 27px; !* Set the width *!
+    height: 27px; !* Set the height *!
+    border: 1px solid red; !* Add border and set color *!
+    background-color: black; !* Set background color *!
+    -webkit-appearance: none; !* Remove default appearance *!
+    -moz-appearance: none; !* Remove default appearance *!
+    appearance: none; !* Remove default appearance *!
+    outline: none; !* Remove outline *!
+    cursor: pointer; !* Change cursor to pointer on hover *!
+}
+
+!* CSS for styling the checked state of the checkbox *!
+input[type="checkbox"]:checked {
+    !* You can add additional styling for the checked state if needed *!
+}
+*/
+
+
+
+#checkbox{
+    position: absolute;
+    top: 8260px;
+    left: -180px;
+}
+
+#submit {
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    text-decoration: none;
+    background-color: #CB1D27;
+    width: 156px;
+    height: 53px;
+    border: none;
+    outline: none;
+    top: 8350pxpx;
+    left: 10px;
+    color: #d9d9d9;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 #nav_logo {
