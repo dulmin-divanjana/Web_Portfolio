@@ -1216,23 +1216,23 @@ header > div > nav > a:visited {
 }
 
 #label_1 {
-    top: 7280px;
-    left: 100px;
+    top: 7200px;
+    left: 200px;
 }
 
 #label_2 {
-    top: 7280px;
-    right: 100px;
+    top: 7200px;
+    right: 565px;
 }
 
 #label_3 {
-    top: 7475px;
-    left: 100px;
+    top: 7350px;
+    left: 200px;
 }
 
 #label_4 {
-    top: 7475px;
-    right: 100px;
+    top: 7350px;
+    left: 830px;
 }
 
 #forms > div > input {
@@ -1248,34 +1248,34 @@ header > div > nav > a:visited {
 }
 
 #first_name {
-    top: 7325px;
-    left: 100px;
+    top: 7245px;
+    left: 200px;
 }
 
 #last_name {
-    top: 7325px;
-    right: 100px;
+    top: 7245px;
+    right: 200px;
 }
 
 #email {
-    top: 7525px;
-    left: 100px;
+    top: 7400px;
+    left: 200px;
 }
 
 #phone_number {
-    top: 7525px;
-    right: 100px;
+    top: 7400px;
+    right: 200px;
 }
 
 #topic {
-    top: 7675px;
-    left: 100px;
+    top: 7500px;
+    left: 200px;
 }
 
 #topics {
     position: absolute;
-    top: 7725px;
-    left: 100px;
+    top: 7550px;
+    left: 200px;
     width: 1122px;
     height: 60px;
     background-color: #111111;
@@ -1286,16 +1286,18 @@ header > div > nav > a:visited {
     border: 1px solid #CB1D27;
 }
 
+/*
 #message_label {
     position: absolute;
-    top: 7855px;
+    top: 7775px;
     left: 100px;
 }
+*/
 
 #message {
     position: absolute;
-    top: 7950px;
-    left: 100px;
+    top: 7700px;
+    left: 200px;
     width: 1122px;
     height: 268px;
     border: 1px solid #CB1D27;
@@ -1308,71 +1310,32 @@ header > div > nav > a:visited {
 
 #message_1 {
     position: absolute;
-    top: 7900px;
-    left: 100px;
+    top: 7650px;
+    left: 200px;
 }
 
 #terms {
     position: absolute;
-    top: 8260px;
-    left: 150px;
+    top: 8000px;
+    left: 300px;
     color: #d9d9d9;
     font-family: "Roboto", sans-serif;
     font-size: 27px;
     font-weight: lighter;
-
 }
-
-/*#checkbox{*/
-/*    position: absolute;*/
-/*    top: 8400px;*/
-/*   !* width: 30px;*/
-/*    height: 30px;*/
-/*    background-color: #111111;*/
-/*    color: #CB1D27;*/
-/*    border: 1px solid #CB1D27;*!*/
-/*    width: 30px; !* Set the width *!*/
-/*    height: 30px; !* Set the height *!*/
-
-/*    border: 2px solid red; !* Add border and set color *!*/
-/*    border-radius: 4px; !* Add rounded corners *!*/
-/*    outline: none; !* Remove outline *!*/
-/*    cursor: pointer; !* Change cursor to pointer on hover *!*/
-/*}*/
-
-/*
-!* CSS for styling the checkbox *!
-input[type="checkbox"] {
-    position: absolute;
-    top: 8400px;
-    width: 27px; !* Set the width *!
-    height: 27px; !* Set the height *!
-    border: 1px solid red; !* Add border and set color *!
-    background-color: black; !* Set background color *!
-    -webkit-appearance: none; !* Remove default appearance *!
-    -moz-appearance: none; !* Remove default appearance *!
-    appearance: none; !* Remove default appearance *!
-    outline: none; !* Remove outline *!
-    cursor: pointer; !* Change cursor to pointer on hover *!
-}
-
-!* CSS for styling the checked state of the checkbox *!
-input[type="checkbox"]:checked {
-    !* You can add additional styling for the checked state if needed *!
-}
-*/
-
 
 #checkbox {
     position: absolute;
-    top: 8260px;
-    left: -180px;
+    top: 8000px;
+    left: -8px;
 }
 
 #submit {
     position: absolute;
-    top: 8300px;
-    left: 700px;
+    top: 8100px;
+    left: 0;
+    right: 0;
+    margin: auto;
     font-size: 20px;
     font-weight: bolder;
     font-family: "Roboto", sans-serif;
@@ -1387,6 +1350,9 @@ input[type="checkbox"]:checked {
 }
 
 
+
+
+
 #nav_logo {
     left: 300px;
     top: 1720px;
@@ -1398,7 +1364,7 @@ input[type="checkbox"]:checked {
     width: 100% vw;
     height: 150px;
     background-color: #181818;
-    top: 1700px;
+    top: 8350px;
     left: 0;
     right: 0;
     margin: auto;
