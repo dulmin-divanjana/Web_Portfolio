@@ -389,38 +389,43 @@
     </div>
     <br><br>
 
-    <form action="" method="get" class="form-contact">
+    <form action="" method="get" class="form-contact" id="forms">
         <div>
-            <label>First Name <br><input type="text" name="first name" id="first name"></label> <br>
+            <label id="label_1">First Name</label>
+            <input type="text" name="first name" id="first_name"><br>
 
         </div>
         <br>
         <div>
-            <label>Last Name <br><input type="text" name="last name" id="lastname"></label> <br>
-
-        </div>
-        <br>
-
-        <div>
-            <label>Email <br><input type="text" name="email" id="email"></label> <br>
+            <label id="label_2">Last Name</label>
+            <input type="text" name="last name" id="last_name"> <br>
 
         </div>
         <br>
 
         <div>
-            <label>Address <br><input type="text" name="address" id="address"></label> <br>
+            <label id="label_3">Email</label>
+            <input type="text" name="email" id="email"> <br>
 
         </div>
         <br>
 
         <div>
-            <label for="topics">Choose a topic</label><br>
+            <label id="label_4">Phone Number</label>
+            <input type="text" name="phone number" id="phone_number"> <br>
+
+        </div>
+        <br>
+
+        <div>
+            <label for="topics" id="topic">Choose a topic</label><br>
+
             <select name="Select one..." id="topics">
                 <option value="">Select one...</option>
                 <option value="General Inquiry">General Inquiry</option>
                 <option value="Collaboration Opportunity">Collaboration Opportunity</option>
                 <option value="Project Proposal">Project Proposal</option>
-                <option value="Feedback/Suggestions">Feedback/Suggestions</option>
+                <option value="Feedback/Suggestions">Feedback Suggestions</option>
                 <option value="Technical Support">Technical Support</option>
                 <option value="Partnership Inquiry">Partnership Inquiry</option>
                 <option value="Job Opportunity">Job Opportunity</option>
@@ -444,6 +449,7 @@
 
         <div>
             <text>I accept the terms</text>
+            <label for="checkbox"></label>
             <input type="checkbox" name="checkbox" id="checkbox">
         </div>
         <br>
@@ -451,6 +457,7 @@
     </form>
 </section>
 <br><br>
+<!--
 
 <section id="navigation">
     <div>
@@ -490,6 +497,46 @@
 
     <div>Copyright @ 2024 Dulmin Kasthuriarachchi. All right reserverd.</div>
 </footer>
+-->
+
+<section id="navigation">
+    <div>
+        <nav id="footer_navigation">
+            <a href="#home">HOME</a>
+            <a href="#project">PROJECT</a>
+            <a href="#about">ABOUT</a>
+            <a href="#assignment">ASSIGNMENT</a>
+            <a href="#skill">SKILL</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+    </div>
+</section>
+<br><br>
+
+<footer>
+    <div id="footer"></div>
+    <div>
+        <img src="assets/icon/6-removebg-preview.png" title="dulmin" alt="dulmin,s logo"
+             width="120" id="nav_logo">
+    </div>
+    <br>
+
+    <div>
+        <a href="https://twitter.com/home">
+            <i class="fa-brands fa-square-x-twitter fa-2xs" style="color: #cb1d27;" id="twitter_22"></i></a>
+
+        <a href="https://github.com/dulmin-divanjana">
+            <i class="fa-brands fa-square-github" style="color: #cb1d27;" id="github_22"></i></a>
+
+        <a href="https://www.linkedin.com/feed/">
+            <i class="fa-brands fa-linkedin" style="color: #cb1d27;" id="linkedin_22"></i></a>
+    </div>
+    <br>
+
+    <div id="copyright">Copyright @ 2024 Dulmin Kasthuriarachchi. All right reserverd.</div>
+</footer>
+
+
 <script src="../assets/Fontawsome/fontawesome-free-6.5.1-web/js/all.min.js"></script>
 </body>
 </html>
