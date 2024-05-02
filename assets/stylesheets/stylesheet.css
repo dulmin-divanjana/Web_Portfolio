@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body {
     background-color: black;
 }
@@ -19,6 +22,10 @@ header > div > nav {
 
 }
 
+/*.about-sec {
+    width: 100vw;
+}*/
+
 header > div > nav > a {
     color: #FFFFFF;
     text-decoration: none;
@@ -38,6 +45,11 @@ header > div > nav > a:visited {
     position: absolute;
 
 }
+
+/*
+#Project {
+}
+*/
 
 #home > div > #name {
     font-family: "Saira", sans-serif;
@@ -168,7 +180,6 @@ header > div > nav > a:visited {
 }
 
 #home > #small_box > #small_box_3 {
-
     top: 630px;
     right: 135px;
 }
@@ -723,7 +734,7 @@ header > div > nav > a:visited {
     right: 100px;
     width: 544px;
     height: 590px;
-    opacity: 30%;
+    opacity: 50%;
 }
 
 #paragraph_about_1 {
@@ -761,7 +772,7 @@ header > div > nav > a:visited {
 }
 
 #large_box_2 {
-    width: 864px;
+    width: 759px;
     height: 465px;
     position: absolute;
     top: 4580px;
