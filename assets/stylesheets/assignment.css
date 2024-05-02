@@ -141,7 +141,7 @@ header > div > nav > a:visited {
     font-size: 38px;
     font-weight: bolder;
     position: absolute;
-    top: 720px;
+    top: 445px;
     left: 50%;
     transform: translate(-50%, -50%)
 }
@@ -169,7 +169,7 @@ header > div > nav > a:visited {
     font-size: 38px;
     font-weight: bolder;
     position: absolute;
-    top: 1300px;
+    top: 1025px;
     left: 50%;
     transform: translate(-50%, -50%)
 }
@@ -197,7 +197,7 @@ header > div > nav > a:visited {
     font-size: 38px;
     font-weight: bolder;
     position: absolute;
-    top: 1880px;
+    top: 1605px;
     left: 50%;
     transform: translate(-50%, -50%)
 }
@@ -211,6 +211,36 @@ header > div > nav > a:visited {
     right: 130px;
 }
 
+.p1{}
+.p2{}
+.p3{}
+.p4{}
+.p5{}
+.p6{}
+.p7{}
+.p8{}
+.p9{}
+
+#view_button_1{}
+#view_button_2{}
+#view_button_3{}
+#view_button_4{}
+#view_button_5{}
+#view_button_6{}
+#view_button_7{}
+#view_button_8{}
+#view_button_9{}
+
+
+#demo_button_1{}
+#demo_button_2{}
+#demo_button_3{}
+#demo_button_4{}
+#demo_button_5{}
+#demo_button_6{}
+#demo_button_7{}
+#demo_button_8{}
+#demo_button_9{}
 
 
 
@@ -220,13 +250,7 @@ header > div > nav > a:visited {
 
 
 
-
-
-
-
-
-
-#p_1 {
+.p1,.p2,.p3,.p4,.p5,.p6,.p7,.p8,.p9 {
     color: #d9d9d9;
     font-family: "Nunito Sans", sans-serif;
     font-size: 24px;
@@ -235,7 +259,7 @@ header > div > nav > a:visited {
 }
 
 
-#view_button_1 {
+#view_button_1,#view_button_2,#view_button_3,#view_button_4,#view_button_5,#view_button_6,#view_button_7,#view_button_8,#view_button_9 {
     width: 103px;
     height: 33px;
     text-decoration: none;
@@ -249,7 +273,7 @@ header > div > nav > a:visited {
     font-family: "Roboto", sans-serif;
 }
 
-#demo_button_1 {
+#demo_button_1,#demo_button_2,#demo_button_3,#demo_button_4,#demo_button_5,#demo_button_6,#demo_button_7,#demo_button_8,#demo_button_9 {
     width: 103px;
     height: 33px;
     text-decoration: none;
