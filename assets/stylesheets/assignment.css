@@ -132,8 +132,8 @@ header > div > nav > a:visited {
     font-size: 38px;
     font-weight: bolder;
     position: absolute;
-    top: 900px;
-    left: 500px;
+    top: 445px;
+    left: 130px;
 }
 #a_2 {
     color: #d9d9d9;
@@ -141,8 +141,9 @@ header > div > nav > a:visited {
     font-size: 38px;
     font-weight: bolder;
     position: absolute;
-    left: 100px;
-    top: 100px;
+    top: 720px;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
 #a_3 {
     color: #d9d9d9;
@@ -150,8 +151,8 @@ header > div > nav > a:visited {
     font-size: 38px;
     font-weight: bolder;
     position: absolute;
-    left: 100px;
-    top: 100px;
+    top: 445px;
+    right: 130px;
 }
 #a_4 {
     color: #d9d9d9;
@@ -159,8 +160,8 @@ header > div > nav > a:visited {
     font-size: 38px;
     font-weight: bolder;
     position: absolute;
-    left: 100px;
-    top: 100px;
+    top: 1025px;
+    right: 130px;
 }
 #a_5 {
     color: #d9d9d9;
@@ -168,8 +169,9 @@ header > div > nav > a:visited {
     font-size: 38px;
     font-weight: bolder;
     position: absolute;
-    left: 100px;
-    top: 100px;
+    top: 1300px;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
 #a_6 {
     color: #d9d9d9;
@@ -177,8 +179,8 @@ header > div > nav > a:visited {
     font-size: 38px;
     font-weight: bolder;
     position: absolute;
-    left: 100px;
-    top: 100px;
+    top: 1025px;
+    left: 130px;
 }
 #a_7 {
     color: #d9d9d9;
@@ -186,8 +188,8 @@ header > div > nav > a:visited {
     font-size: 38px;
     font-weight: bolder;
     position: absolute;
-    left: 100px;
-    top: 100px;
+    top: 1605px;
+    left: 130px;
 }
 #a_8 {
     color: #d9d9d9;
@@ -195,8 +197,9 @@ header > div > nav > a:visited {
     font-size: 38px;
     font-weight: bolder;
     position: absolute;
-    left: 100px;
-    top: 100px;
+    top: 1880px;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
 #a_9 {
     color: #d9d9d9;
@@ -204,8 +207,8 @@ header > div > nav > a:visited {
     font-size: 38px;
     font-weight: bolder;
     position: absolute;
-    left: 100px;
-    top: 100px;
+    top: 1605px;
+    right: 130px;
 }
 
 
