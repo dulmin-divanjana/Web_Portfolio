@@ -192,7 +192,7 @@ header > div > nav > a:visited {
 
 .p3 {
     top: 600px;
-    right: 175px;
+    right: 205px;
 }
 
 .p4 {
@@ -207,7 +207,7 @@ header > div > nav > a:visited {
 
 .p6 {
     top: 1175px;
-    left: 175px;
+    left: 205px;
 }
 
 .p7 {
@@ -222,18 +222,18 @@ header > div > nav > a:visited {
 
 .p9 {
     top: 1750px;
-    right: 175px;
+    right: 205px;
 }
 
 
 #view_button_1 {
     top: 915px;
-    left: 175px;
+    left: 380px;
 }
 
 #view_button_2 {
     top: 915px;
-    left: 605px;
+    right: 605px;
 }
 
 #view_button_3 {
@@ -243,17 +243,17 @@ header > div > nav > a:visited {
 
 #view_button_4 {
     top: 1025px;
-    right: 130px;
+    left: 380px;
 }
 
 #view_button_5 {
     top: 1025px;
-    left: 50%;
+    right: 605px;
 }
 
 #view_button_6 {
     top: 1025px;
-    left: 130px;
+    right: 175px;
 }
 
 #view_button_7 {
@@ -279,27 +279,27 @@ header > div > nav > a:visited {
 
 #demo_button_2 {
     top: 915px;
-    left: 810px;
+    left: 605px;
 }
 
 #demo_button_3 {
     top: 915px;
-    right: 175px;
+    right: 380px;
 }
 
 #demo_button_4 {
     top: 1025px;
-    right: 130px;
+    left: 175px;
 }
 
 #demo_button_5 {
     top: 1025px;
-    left: 50%;
+    left: 605px;
 }
 
 #demo_button_6 {
     top: 1025px;
-    left: 130px;
+    right: 380px;
 }
 
 #demo_button_7 {
