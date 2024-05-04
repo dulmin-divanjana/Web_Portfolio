@@ -55,7 +55,7 @@ header > div > nav > a:visited {
 #home > #large_box {
     width: 773px;
     height: 956px;
-    background-color: #181818;
+    background-color: #111111;
     /*border: solid 1px #9A0000;*/
     position: absolute;
     right: 0;
@@ -411,7 +411,7 @@ header > div > nav > a:visited {
     position: absolute;
     width: 690px;
     height: 450px;
-    background-color: #181818;
+    background-color: #111111;
 }
 
 #project_1 {
@@ -442,28 +442,28 @@ header > div > nav > a:visited {
     position: absolute;
     top: 1895px;
     left: 105px;
-    border: 2px solid #181818;
+    border: 2px solid #1E1E1E;
 }
 
 #nexo_live_chat {
     position: absolute;
     top: 1895px;
     right: 105px;
-    border: 2px solid #181818;
+    border: 2px solid #1E1E1E;
 }
 
 #apex_car_wash {
     position: absolute;
     top: 2495px;
     left: 105px;
-    border: 2px solid #181818;
+    border: 2px solid #1E1E1E;
 }
 
 #my_portfolio {
     position: absolute;
     top: 2495px;
     right: 105px;
-    border: 2px solid #181818;
+    border: 2px solid #1E1E1E;
 }
 
 #project_head_1 {
@@ -566,7 +566,7 @@ header > div > nav > a:visited {
     position: absolute;
     width: 1370px;
     height: 194px;
-    background-color: #181818;
+    background-color: #111111;
     top: 3050px;
     left: 0;
     right: 0;
@@ -604,7 +604,7 @@ header > div > nav > a:visited {
     position: absolute;
     width: 1386px;
     height: 362px;
-    background-color: #181818;
+    background-color: #111111;
     top: 3280px;
     left: 0;
     right: 0;
@@ -698,7 +698,6 @@ header > div > nav > a:visited {
     left: 0;
     right: 0;
     margin: auto;
-
 }
 
 #about_hello {
@@ -725,7 +724,7 @@ header > div > nav > a:visited {
     right: 100px;
     width: 544px;
     height: 590px;
-    opacity: 50%;
+    opacity: 35%;
 }
 
 #paragraph_about_1 {
@@ -768,7 +767,7 @@ header > div > nav > a:visited {
     position: absolute;
     top: 4580px;
     left: 50%;
-    background-color: #181818;
+    background-color: #111111;
 }
 
 /*about section box*/
@@ -887,7 +886,7 @@ header > div > nav > a:visited {
 .assignment_box {
     width: 1386px;
     height: 362px;
-    background-color: #181818;
+    background-color: #111111;
     position: absolute;
     top: 5090px;
     left: 0;
@@ -1352,7 +1351,7 @@ header > div > nav > a:visited {
     position: absolute;
     width: 100%;
     height: 150px;
-    background-color: #181818;
+    background-color: #111111;
     top: 8350px;
     left: 0;
     right: 0;
