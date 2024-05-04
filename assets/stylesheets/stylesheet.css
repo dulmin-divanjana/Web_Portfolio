@@ -37,6 +37,8 @@ header > div > nav > a:visited {
     color: #9A0000;
 }
 
+/*home section*/
+
 #home > #profile_image > img {
     width: 686px;
     height: 520px;
@@ -652,6 +654,8 @@ header > div > nav > a:visited {
     cursor: pointer;
 }
 
+/*about section*/
+
 .title_box_4 {
     position: absolute;
     width: 1334px;
@@ -774,8 +778,6 @@ header > div > nav > a:visited {
     background-color: #111111;
 }
 
-/*about section box*/
-
 #year_experience_1 > #one_1 {
     color: #CB1D27;
     font-weight: 900;
@@ -887,6 +889,8 @@ header > div > nav > a:visited {
     position: absolute;
 }
 
+/*assignment section*/
+
 .assignment_box {
     width: 1386px;
     height: 362px;
@@ -944,6 +948,8 @@ header > div > nav > a:visited {
     cursor: pointer;
 }
 
+/*skill section*/
+
 .title_box_5 {
     position: absolute;
     width: 1334px;
@@ -964,7 +970,6 @@ header > div > nav > a:visited {
     left: 0;
     right: 0;
     margin: auto;
-
 }
 
 #skill_title {
@@ -980,7 +985,6 @@ header > div > nav > a:visited {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 #skill_title_2 {
@@ -996,7 +1000,6 @@ header > div > nav > a:visited {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 #skill_box > * {
@@ -1151,6 +1154,7 @@ header > div > nav > a:visited {
     right: 150px;
 }
 
+/*contact section*/
 
 .title_box_6 {
     position: absolute;
@@ -1325,7 +1329,6 @@ header > div > nav > a:visited {
     background-color: black;
 }
 
-
 #submit {
     position: absolute;
     top: 8100px;
@@ -1344,6 +1347,8 @@ header > div > nav > a:visited {
     color: #d9d9d9;
     cursor: pointer;
 }
+
+/*footer section*/
 
 #nav_logo {
     left: 300px;
