@@ -8,7 +8,7 @@ header > div > img {
     position: absolute;
 }
 
-header > div > nav {
+#header_nav {
     top: 35px;
     right: 200px;
     position: absolute;
@@ -18,16 +18,16 @@ header > div > nav {
     font-size: 19px;
 }
 
-header > div > nav > a {
+#header_nav > a {
     color: #FFFFFF;
     text-decoration: none;
     margin-right: 30px;
-    cursor: pointer;
 }
 
-header > div > nav > a:visited {
+#header_nav > a:visited {
     color: #9A0000;
 }
+
 
 #title_box {
     position: absolute;
@@ -261,7 +261,7 @@ header > div > nav > a:visited {
     right: 640px;
 }
 
-#copyright{
+#copyright {
     position: absolute;
     font-size: 16px;
     font-weight: normal;
