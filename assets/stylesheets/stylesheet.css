@@ -22,10 +22,6 @@ header > div > nav {
 
 }
 
-/*.about-sec {
-    width: 100vw;
-}*/
-
 header > div > nav > a {
     color: #FFFFFF;
     text-decoration: none;
@@ -45,11 +41,6 @@ header > div > nav > a:visited {
     position: absolute;
 
 }
-
-/*
-#Project {
-}
-*/
 
 #home > div > #name {
     font-family: "Saira", sans-serif;
@@ -366,7 +357,7 @@ header > div > nav > a:visited {
 
 /*project section*/
 
-#title_box {
+.title_box {
     position: absolute;
     width: 1334px;
     height: 194px;
@@ -657,7 +648,7 @@ header > div > nav > a:visited {
     cursor: pointer;
 }
 
-#title_box_4 {
+.title_box_4 {
     position: absolute;
     width: 1334px;
     height: 194px;
@@ -893,7 +884,7 @@ header > div > nav > a:visited {
     position: absolute;
 }
 
-#assignment_box {
+.assignment_box {
     width: 1386px;
     height: 362px;
     background-color: #181818;
@@ -910,7 +901,7 @@ header > div > nav > a:visited {
     color: #d9d9d9;
     font-size: 64px;
     position: absolute;
-    top: 5150px;
+    top: 5130px;
     left: 160px;
 
 }
@@ -919,7 +910,7 @@ header > div > nav > a:visited {
     position: absolute;
     width: 75px;
     height: 75px;
-    top: 5190px;
+    top: 5175px;
     left: 611px;
 }
 
@@ -929,7 +920,7 @@ header > div > nav > a:visited {
     color: #d9d9d9;
     font-size: 28px;
     position: absolute;
-    top: 5315px;
+    top: 5290px;
     left: 160px;
 }
 
@@ -944,13 +935,13 @@ header > div > nav > a:visited {
     width: 194px;
     height: 69px;
     border: none;
-    top: 5250px;
+    top: 5240px;
     left: 1100px;
     color: #d9d9d9;
     cursor: pointer;
 }
 
-#title_box_5 {
+.title_box_5 {
     position: absolute;
     width: 1334px;
     height: 194px;
@@ -1292,14 +1283,6 @@ header > div > nav > a:visited {
     border: 1px solid #CB1D27;
 }
 
-/*
-#message_label {
-    position: absolute;
-    top: 7775px;
-    left: 100px;
-}
-*/
-
 #message {
     position: absolute;
     top: 7700px;
@@ -1363,7 +1346,7 @@ header > div > nav > a:visited {
 
 #footer {
     position: absolute;
-    width: 100% vw;
+    width: 100% /*vw*/;
     height: 150px;
     background-color: #181818;
     top: 8350px;
