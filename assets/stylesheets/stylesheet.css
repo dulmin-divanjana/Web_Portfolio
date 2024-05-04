@@ -1232,7 +1232,7 @@ header > div > nav > a:visited {
 }
 
 #forms > div > input {
-    background-color: #111111;
+    background-color: black;
     width: 484px;
     height: 60px;
     border: 1px solid #CB1D27;
@@ -1274,7 +1274,7 @@ header > div > nav > a:visited {
     left: 200px;
     width: 1122px;
     height: 60px;
-    background-color: #111111;
+    background-color: black;
     font-family: "Roboto", sans-serif;
     font-size: 25px;
     font-weight: lighter;
@@ -1293,7 +1293,7 @@ header > div > nav > a:visited {
     font-family: "Roboto", sans-serif;
     font-size: 25px;
     color: #d9d9d9;
-    background-color: #111111;
+    background-color: black;
 }
 
 #message_1 {
