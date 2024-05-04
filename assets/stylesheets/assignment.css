@@ -1,11 +1,6 @@
 body {
-    background-color: darkslategray;
+    background-color: black;
 }
-
-/*
-body {
-    background-color: cadetblue;
-}*/
 
 header > div > img {
     top: 0;
@@ -339,6 +334,7 @@ header > div > nav > a:visited {
     font-size: 15px;
     font-weight: bolder;
     font-family: "Roboto", sans-serif;
+    cursor: pointer;
 }
 
 #demo_button_1, #demo_button_2, #demo_button_3, #demo_button_4, #demo_button_5, #demo_button_6, #demo_button_7, #demo_button_8, #demo_button_9 {
@@ -353,6 +349,7 @@ header > div > nav > a:visited {
     font-size: 15px;
     font-weight: bolder;
     font-family: "Roboto", sans-serif;
+    cursor: pointer;
 }
 
 
@@ -375,12 +372,9 @@ header > div > nav > a:visited {
     margin: auto;
 }
 
-#footer_nav {
-    top: 2230px;
-    left: 0;
-    right: 0;
-    text-align: center;
-    margin: auto;
+#header_nav {
+    top: 35px;
+    right: 200px;
     position: absolute;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
@@ -388,13 +382,13 @@ header > div > nav > a:visited {
     font-size: 19px;
 }
 
-#footer_nav > a {
+#header_nav > a {
     color: #FFFFFF;
     text-decoration: none;
     margin-right: 30px;
 }
 
-#footer_nav > a:visited {
+#header_nav > a:visited {
     color: #9A0000;
 }
 
