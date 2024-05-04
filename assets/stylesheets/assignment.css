@@ -28,6 +28,27 @@ header > div > nav > a {
 header > div > nav > a:visited {
     color: #9A0000;
 }
+header > div > nav {
+    top: 35px;
+    right: 200px;
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 19px;
+
+}
+
+header > div > nav > a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+header > div > nav > a:visited {
+    color: #9A0000;
+}
+
 
 #title_box {
     position: absolute;
@@ -372,9 +393,12 @@ header > div > nav > a:visited {
     margin: auto;
 }
 
-#header_nav {
-    top: 35px;
-    right: 200px;
+#footer_nav {
+    top: 2230px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: auto;
     position: absolute;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
@@ -382,13 +406,13 @@ header > div > nav > a:visited {
     font-size: 19px;
 }
 
-#header_nav > a {
+#footer_nav > a {
     color: #FFFFFF;
     text-decoration: none;
     margin-right: 30px;
 }
 
-#header_nav > a:visited {
+#footer_nav > a:visited {
     color: #9A0000;
 }
 
