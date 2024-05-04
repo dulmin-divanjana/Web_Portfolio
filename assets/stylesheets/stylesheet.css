@@ -2,7 +2,11 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
+/*body {
+    background: linear-gradient(45deg,  rgb(0,0,0) 24%,rgb(0,0,0) 79%,rgb(0,0,0) 79%,rgb(69,72,77) 100%); !* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ *!
+}*/
+
+body{
     background-color: black;
 }
 
