@@ -340,6 +340,7 @@ header > div > nav > a:visited {
     font-size: 24px;
     font-weight: lighter;
     position: absolute;
+    text-align: center;
 }
 
 
