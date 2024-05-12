@@ -1,0 +1,61 @@
+body{
+    background: black;
+}
+h1{
+    color: white;
+    position: absolute;
+    bottom: 100%;
+    left: 35%;
+}
+main {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#light-panel {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+
+#btn-panel {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.light {
+    width: 100px;
+    aspect-ratio: 2/1;
+    border: 1px solid white;
+}
+
+
+.light_on {
+    background: red;
+    box-shadow: 0px 0px 20px red;
+}
+.light_on2 {
+    background: rgb(0, 55, 255);
+    box-shadow: 0px 0px 20px rgb(0, 26, 255);
+}
+button{
+    width: 100px;
+    height: 30px;
+    margin: 30px;
+}
+button:nth-child(1){
+    background: rgb(0, 255, 4);
+    color: white;
+}
+button:nth-child(2){
+    background: rgb(77, 0, 148);
+    color: white;
+}

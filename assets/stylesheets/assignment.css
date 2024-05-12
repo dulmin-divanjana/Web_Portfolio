@@ -28,6 +28,7 @@ header > div > nav > a {
 header > div > nav > a:visited {
     color: #9A0000;
 }
+
 header > div > nav {
     top: 35px;
     right: 200px;
@@ -141,8 +142,24 @@ header > div > nav > a:visited {
     right: 130px;
 }
 
+#assignment_10 {
+    top: 2185px;
+    right: 130px;
+}
 
-#a_1, #a_2, #a_3, #a_4, #a_5, #a_6, #a_7, #a_8, #a_9 {
+#assignment_11 {
+    top: 2185px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#assignment_12 {
+    top: 2185px;
+    left: 130px;
+}
+
+#a_1, #a_2, #a_3, #a_4, #a_5, #a_6, #a_7, #a_8, #a_9, #a_10, #a_11, #a_12 {
     color: #d9d9d9;
     font-family: "Nunito Sans", sans-serif;
     font-size: 38px;
@@ -195,6 +212,33 @@ header > div > nav > a:visited {
     right: 175px;
 }
 
+#a_10 {
+    top: 2185px;
+    left: 175px;
+}
+
+#a_11 {
+    top: 2185px;
+    right: 605px;
+
+}
+
+#a_12 {
+    top: 2185px;
+    right: 175px;
+}
+
+
+.p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8, .p9, .p10, .p11, .p12 {
+    color: #d9d9d9;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+    position: absolute;
+    text-align: center;
+}
+
+
 .p1 {
     top: 600px;
     left: 175px;
@@ -202,7 +246,9 @@ header > div > nav > a:visited {
 
 .p2 {
     top: 600px;
-    left: 605px;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 .p3 {
@@ -217,7 +263,9 @@ header > div > nav > a:visited {
 
 .p5 {
     top: 1175px;
-    left: 605px;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 .p6 {
@@ -232,12 +280,46 @@ header > div > nav > a:visited {
 
 .p8 {
     top: 1750px;
-    left: 605px;
+    left: 0;
+    right: 0;
+    margin: auto
 }
 
 .p9 {
     top: 1750px;
     right: 205px;
+}
+
+.p10 {
+    top: 2325px;
+    left: 205px;
+}
+
+.p11 {
+    top: 2325px;
+    left: 0;
+    right: 0;
+    margin: auto
+}
+
+.p12 {
+    top: 2325px;
+    right: 205px;
+}
+
+#view_button_1, #view_button_2, #view_button_3, #view_button_4, #view_button_5, #view_button_6, #view_button_7, #view_button_8, #view_button_9, #view_button_10, #view_button_11, #view_button_12 {
+    width: 103px;
+    height: 33px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    position: absolute;
+    background-color: #CB1D27;
+    color: #d9d9d9;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
 }
 
 
@@ -286,6 +368,35 @@ header > div > nav > a:visited {
     right: 175px;
 }
 
+#view_button_10 {
+    top: 2655px;
+    left: 380px;
+}
+
+#view_button_11 {
+    top: 2655px;
+    right: 605px;
+}
+
+#view_button_12 {
+    top: 2655px;
+    right: 175px;
+}
+
+#demo_button_1, #demo_button_2, #demo_button_3, #demo_button_4, #demo_button_5, #demo_button_6, #demo_button_7, #demo_button_8, #demo_button_9, #demo_button_10, #demo_button_11, #demo_button_12 {
+    width: 103px;
+    height: 33px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    position: absolute;
+    background-color: #CB1D27;
+    color: #d9d9d9;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+}
 
 #demo_button_1 {
     top: 915px;
@@ -332,45 +443,19 @@ header > div > nav > a:visited {
     right: 380px;
 }
 
-
-.p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8, .p9 {
-    color: #d9d9d9;
-    font-family: "Nunito Sans", sans-serif;
-    font-size: 24px;
-    font-weight: lighter;
-    position: absolute;
-    text-align: center;
+#demo_button_10 {
+    top: 2655px;
+    left: 175px;
 }
 
-
-#view_button_1, #view_button_2, #view_button_3, #view_button_4, #view_button_5, #view_button_6, #view_button_7, #view_button_8, #view_button_9 {
-    width: 103px;
-    height: 33px;
-    text-decoration: none;
-    border: none;
-    outline: none;
-    position: absolute;
-    background-color: #CB1D27;
-    color: #d9d9d9;
-    font-size: 15px;
-    font-weight: bolder;
-    font-family: "Roboto", sans-serif;
-    cursor: pointer;
+#demo_button_11 {
+    top: 2655px;
+    left: 605px;
 }
 
-#demo_button_1, #demo_button_2, #demo_button_3, #demo_button_4, #demo_button_5, #demo_button_6, #demo_button_7, #demo_button_8, #demo_button_9 {
-    width: 103px;
-    height: 33px;
-    text-decoration: none;
-    border: none;
-    outline: none;
-    position: absolute;
-    background-color: #CB1D27;
-    color: #d9d9d9;
-    font-size: 15px;
-    font-weight: bolder;
-    font-family: "Roboto", sans-serif;
-    cursor: pointer;
+#demo_button_12 {
+    top: 2655px;
+    right: 380px;
 }
 
 
@@ -378,7 +463,7 @@ header > div > nav > a:visited {
 
 #nav_logo {
     left: 300px;
-    top: 2290px;
+    top: 3000px;
     position: absolute;
 }
 
@@ -387,14 +472,14 @@ header > div > nav > a:visited {
     width: 100% vw;
     height: 150px;
     background-color: #111111;
-    top: 2270px;
+    top: 3000px;
     left: 0;
     right: 0;
     margin: auto;
 }
 
 #footer_nav {
-    top: 2230px;
+    top: 3000px;
     left: 0;
     right: 0;
     text-align: center;
@@ -420,7 +505,7 @@ header > div > nav > a:visited {
     position: absolute;
     width: 50px;
     height: 50px;
-    top: 2320px;
+    top: 3000px;
     left: 640px;
 }
 
@@ -428,7 +513,7 @@ header > div > nav > a:visited {
     position: absolute;
     width: 50px;
     height: 50px;
-    top: 2320px;
+    top: 3000px;
     left: 0;
     right: 0;
     margin: auto;
@@ -439,7 +524,7 @@ header > div > nav > a:visited {
     position: absolute;
     width: 50px;
     height: 50px;
-    top: 2320px;
+    top: 3000px;
     right: 640px;
 }
 
@@ -448,7 +533,7 @@ header > div > nav > a:visited {
     font-size: 16px;
     font-weight: normal;
     font-family: "Saira", sans-serif;
-    top: 2390px;
+    top: 3000px;
     left: 0;
     right: 0;
     text-align: center;

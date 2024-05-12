@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" style="font-size: 20px;">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Transition Ex 01</title>
+
+    <link rel="stylesheet" href="assets/stylesheets/normalize.css">
+    <link rel="stylesheet" href="assets/fontawsome/fontawesome-free-6.5.1-web/js/all.min.js">
+
+    <style>
+
+        section {
+            height: fit-content;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+
+        }
+
+        section > div {
+            background-color: gold;
+            color: cornflowerblue;
+            width: 250px;
+            height: 60px;
+            position: relative;
+
+            margin: 10px 0 10px -192px;
+            cursor: pointer;
+
+            transition-duration: 1s;
+        }
+
+        section > div:hover {
+            margin-left: 0;
+        }
+
+        section > div > h3 {
+            height: fit-content;
+
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 20px;
+            margin: auto;
+
+        }
+
+        section > div > div {
+            height: fit-content;
+
+            position: absolute;
+            right: 20px;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+
+<section>
+
+    <div>
+        <h3>Menu One</h3>
+        <div><i class="fa-solid fa-house fa-beat" style="color: #74C0FC;"></i></div>
+    </div>
+
+    <div>
+        <h3>Menu Two</h3>
+        <div><i class="fa-solid fa-file fa-beat" style="color: #74C0FC;"></i></div>
+    </div>
+
+    <div>
+        <h3>Menu Three</h3>
+        <div><i class="fa-solid fa-pen-nib fa-beat" style="color: #74C0FC;"></i></div>
+    </div>
+
+    <div>
+        <h3>Menu Four</h3>
+        <div><i class="fa-brands fa-artstation fa-beat" style="color: #74C0FC;"></i></div>
+    </div>
+
+    <div>
+        <h3>Menu Five</h3>
+        <div><i class="fa-solid fa-face-smile fa-beat" style="color: #74C0FC;"></i></div>
+    </div>
+
+</section>
+
+
+<script src="assets/fontawsome/fontawesome-free-6.5.1-web/js/all.min.js"></script>
+
+</body>
+
+</html>

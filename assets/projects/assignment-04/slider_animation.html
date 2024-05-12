@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="assets/stylesheets/normalize.css">
+
+    <style>
+        main {
+            width: 50vw;
+            height: 50vh;
+            border: 4px deepskyblue solid;
+
+            position: absolute;
+
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+
+            margin: auto;
+            overflow: hidden;
+        }
+
+        section {
+            width: 200vw;
+            display: flex;
+
+            animation-name: anime;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-timing-function: ease;
+        }
+        section>div{
+            width: 50vw;
+            height: 50vh;
+        }
+
+        section>div:nth-last-child(4) {
+            background-image: url("assets/images/Tom-and-Jerry-Cartoon-A-Short-History-of-Americas-Favorite-Cartoon-Team-animader.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        section>div:nth-last-child(3) {
+            background-image: url("assets/images/PJUSY-1581617459-1404-lists-tomandjerry_facts_main.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        section>div:nth-last-child(2) {
+            background-image: url("assets/images/7-life-lessons-from-Tom-and-Jerry-cartoon.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        section>div:nth-last-child(1) {
+            background-image: url("assets/images/tom-and-jerry-new-google-drive-link-v0-viqrvtd4kvjb1.webp");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        @keyframes anime {
+            0%,20% {
+                transform: translateX(0%);
+            }
+
+            25%,45% {
+                transform: translateX(-25%);
+            }
+
+            50%,70% {
+                transform: translateX(-50%);
+            }
+
+            75%,100% {
+                transform: translateX(-75%);
+            }
+        }
+    </style>
+</head>
+<body>
+<main>
+    <section>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
+</main>
+<div></div>
+</body>
+</html>

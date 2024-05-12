@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>case 02</title>
+    <link rel="stylesheet" href="case-02.css">
+</head>
+<body>
+
+<section>
+    <div class="container">
+        <div class="sub_container">
+            <div class="color"></div>
+        </div>
+        <div class="sub_container">
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+        </div>
+        <div class="sub_container">
+            <div class="color"></div>
+        </div>
+    </div>
+</section>
+
+<script src="assets/jquery.min.js"></script>
+
+<script>
+    let color = ['red','green','blue','yellow','purple','pink'];
+    let items = $('.color');
+
+    for (let i = 0; i<items.length; i++){
+        items.eq(i).css('background',color[i]);
+    }
+
+    setInterval(() => {
+
+        color = [color[5],color[0],color[1],color[2],color[3],color[4]];
+
+        for (let i = 0; i<items.length; i++){
+            items.eq(i).css('background',color[i]);
+        }
+
+    },1000);
+</script>
+
+</body>
+</html>

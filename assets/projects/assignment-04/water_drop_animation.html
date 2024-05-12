@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="assets/stylesheets/normalize.css">
+    <style>
+
+        div {
+            width: 20px;
+            height: 20px;
+            border: solid 2px deepskyblue;
+            border-radius: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+
+            animation-name: water ;
+            animation-duration: 3s;
+            cursor: pointer;
+        }
+        @keyframes  water{
+            from{
+                width: 20px;
+                height: 20px;
+            }
+            to{
+                width: 300px;
+                height: 300px;
+                opacity: 0;
+            }
+
+        }
+
+    </style>
+</head>
+<body>
+<div></div>
+</body>
+</html>

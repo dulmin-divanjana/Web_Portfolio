@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="assets/stylesheets/normalize.css">
+    <style>
+
+        body {
+            overflow: hidden;
+        }
+
+        :root {
+            --width: 100px;
+            --heigth: 50px;
+        }
+
+        div {
+            width: var(--width);
+            height: var(--heigth);
+            border-radius: 10px;
+            background-color: blueviolet;
+            animation-duration: 8s;
+            animation-name: youtube;
+            animation-iteration-count: inherit;
+            animation-timing-function: linear;
+        }
+
+        @keyframes youtube {
+            0% {
+                margin-left: 0;
+                margin-top: 0;
+                background-color: deeppink;
+                transform: rotate(0deg);
+
+            }
+            25% {
+                margin-top: 0;
+                margin-left: calc(100vw - var(--width));
+                background-color: deeppink;
+                transform: rotate(180deg);
+            }
+            50% {
+                margin-left: calc(100vw - var(--width));
+                margin-top: calc(100vh - var(--heigth));
+                background-color: brown;
+                transform: rotate(0deg);
+            }
+            75% {
+                margin-left: 0;
+                margin-top: calc(100vh - var(--heigth));
+                background-color: greenyellow;
+                transform: rotate(-180deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div></div>
+
+</body>
+</html>

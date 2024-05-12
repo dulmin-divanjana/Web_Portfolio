@@ -1,0 +1,33 @@
+body{
+    background: #E9E7E6;
+}
+section{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.queue-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid #afafaf;
+}
+
+.queue-container div img{
+    width: 150px;
+}
+
+.queue-container div div{
+    text-align: right;
+    font-size: 24px;
+    font-weight: 600;
+    color: darkred;
+}
+
+.house img{
+    width: 300px;
+}

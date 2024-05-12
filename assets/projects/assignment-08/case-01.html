@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>case 01</title>
+    <link rel="stylesheet" href="case-01.css">
+</head>
+<body>
+
+<section>
+    <div class="queue-container">
+        <div class="item">
+            <div>A</div>
+            <img src="assets/img/man.gif" alt="man">
+        </div>
+        <div class="item">
+            <div>B</div>
+            <img src="assets/img/man.gif" alt="man">
+        </div>
+        <div class="item">
+            <div>C</div>
+            <img src="assets/img/man.gif" alt="man">
+        </div>
+        <div class="item">
+            <div>D</div>
+            <img src="assets/img/man.gif" alt="man">
+        </div>
+        <div class="item">
+            <div>E</div>
+            <img src="assets/img/man.gif" alt="man">
+        </div>
+        <div class="item">
+            <div>F</div>
+            <img src="assets/img/man.gif" alt="man">
+        </div>
+    </div>
+    <div class="house">
+        <img src="assets/img/house.gif" alt="house">
+    </div>
+</section>
+
+
+<script src="assets/jquery.min.js"></script>
+
+<script>
+    const items = $('.item div');
+    setInterval(() => {
+        let one = items.eq(0).html();
+        let two = items.eq(1).html();
+        let three = items.eq(2).html();
+        let four = items.eq(3).html();
+        let five = items.eq(4).html();
+        let six = items.eq(5).html();
+
+        items.eq(0).html(six);
+        items.eq(1).html(one);
+        items.eq(2).html(two);
+        items.eq(3).html(three);
+        items.eq(4).html(four);
+        items.eq(5).html(five);
+
+    }, 1000);
+</script>
+
+</body>
+</html>
