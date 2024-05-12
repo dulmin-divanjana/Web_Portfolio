@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="assets/stylesheets/normalize.css">
+
+    <style>
+
+        section {
+            width: 99.8%;
+            line-height: normal;
+
+            position: absolute;
+            border: 2px solid black;
+
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+
+            margin: auto;
+        }
+
+        div {
+            width: 50%;
+            height: 50%;
+        }
+
+        #div1 {
+
+            position: absolute;
+            left: 0;
+            top: 0;
+            background-color: red;
+
+            margin: auto;
+        }
+
+        #div2 {
+
+            position: absolute;
+            right: 0;
+            top: 0;
+            background-color: green;
+
+            transform: scaleX(-1);
+
+            margin: auto;
+        }
+
+        #div3 {
+
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            background-color: deeppink;
+
+            transform: scale(-1);
+
+            margin: auto;
+        }
+
+        #div4 {
+
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            background-color: orange;
+
+            transform: scaleX(1);
+            transform: scaleY(-1);
+
+            margin: auto;
+        }
+
+        .circle {
+            width: 35%;
+            height: 70%;
+
+            background-color: white;
+            position: absolute;
+            border-radius: 100%;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+
+            margin: auto;
+        }
+
+        #rec {
+
+            width: 17%;
+            height: 34%;
+
+            background-color: white;
+            position: absolute;
+
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+
+            margin: auto;
+        }
+
+        .redRec {
+            width: 38%;
+            height: 38%;
+
+            background-color: red;
+            position: absolute;
+
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+
+            margin: auto;
+        }
+
+        #redCircle {
+
+            width: 60%;
+            height: 60%;
+
+            background-color: red;
+            position: absolute;
+            border-radius: 100%;
+
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+
+            margin: auto;
+        }
+
+        .whiteCircle {
+            width: 22%;
+            height: 42%;
+
+            background-color: white;
+            position: absolute;
+
+            border-radius: 0 0 100% 0;
+            left: 0;
+            top: 0;
+
+            margin: auto;
+        }
+
+        .smallWhiteCirc {
+            width: 13%;
+            height: 26%;
+
+            background-color: white;
+            position: absolute;
+
+            border-radius: 0 0 0 100%;
+            right: 0;
+            top: 0;
+
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+
+<section>
+    <div id="div1">
+        <div class="whiteCircle"></div>
+        <div class="smallWhiteCirc"></div>
+        <div class="circle">
+            <div class="redRec">
+
+            </div>
+        </div>
+    </div>
+
+    <div id="div2">
+        <div class="whiteCircle"></div>
+        <div class="smallWhiteCirc"></div>
+        <div class="circle">
+            <div class="redRec">
+
+            </div>
+        </div>
+    </div>
+
+    <div id="div3">
+        <div class="whiteCircle"></div>
+        <div class="smallWhiteCirc"></div>
+        <div class="circle">
+            <div class="redRec">
+
+            </div>
+        </div>
+    </div>
+
+    <div id="div4">
+        <div class="whiteCircle"></div>
+        <div class="smallWhiteCirc"></div>
+        <div class="circle">
+            <div class="redRec">
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="rec">
+    <div id="redCircle">
+
+    </div>
+</div>
+</body>
+</html>

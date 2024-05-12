@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="assets/stylesheets/normalize.css">
+
+    <style>
+
+        div {
+            width: 320px;
+            aspect-ratio: 1/1;
+            border-radius: 100%;
+
+            font-weight: bold;
+            font-family: Inter, sans-serif;
+            color: white;
+        }
+
+        div:nth-last-of-type(4) {
+            background-color: rebeccapurple;
+            position: relative;
+            margin: 325px auto;
+            text-align: center;
+            line-height: 300px;
+        }
+
+        div:nth-last-of-type(3) {
+            background-color: deepskyblue;
+            position: relative;
+            margin: 325px auto;
+            text-align: center;
+            line-height: 300px;
+        }
+
+        div:nth-last-of-type(2) {
+            background-color: firebrick;
+            position: relative;
+            margin: 325px auto;
+            text-align: center;
+        }
+
+        div:nth-last-of-type(2) > h1 {
+            padding: 105px 0;
+        }
+
+        .grayCircle {
+            width: 345px;
+            aspect-ratio: 1/1;
+            border: 15px solid gray;
+
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+
+            margin: auto;
+        }
+
+        .grayCircle > div {
+            width: 315px;
+            aspect-ratio: 1/1;
+            border: 15px solid red;
+
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+
+<div>
+    <h1>Welcome</h1>
+</div>
+<div>
+    <h1>To</h1>
+</div>
+<div>
+    <h1>Earth</h1>
+</div>
+
+<div class="grayCircle">
+    <div></div>
+</div>
+</body>
+</html>
