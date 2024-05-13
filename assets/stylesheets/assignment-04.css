@@ -26,7 +26,6 @@ body {
     font-size: 16px;
     cursor: pointer;
     position: absolute;
-
 }
 
 #about_1 {
@@ -44,7 +43,6 @@ body {
 #about_3 {
     top: 300px;
     right: 513px;
-
 }
 
 #about_4 {
@@ -62,9 +60,7 @@ body {
 #about_6 {
     top: 365px;
     right: 513px;
-
 }
-
 
 #copyright {
     position: absolute;
@@ -77,4 +73,3 @@ body {
     text-align: center;
     color: #d9d9d9;
 }
-
