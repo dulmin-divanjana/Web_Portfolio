@@ -28,7 +28,6 @@ header > div > img {
     color: #9A0000;
 }
 
-
 #title_box {
     position: absolute;
     width: 1334px;
@@ -45,13 +44,9 @@ header > div > img {
     font-size: 64px;
     font-weight: bolder;
     color: #9A0000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: absolute;
-    width: 100%;
-    height: 100%;
-    top: -140px;
+    top: 160px;
+    right: 610px;
 }
 
 #white-line {
@@ -272,5 +267,3 @@ header > div > img {
     text-align: center;
     color: #d9d9d9;
 }
-
-
