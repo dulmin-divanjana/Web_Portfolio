@@ -2,11 +2,7 @@ html {
     scroll-behavior: smooth;
 }
 
-/*body {
-    background: linear-gradient(45deg,  rgb(0,0,0) 24%,rgb(0,0,0) 79%,rgb(0,0,0) 79%,rgb(69,72,77) 100%); !* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ *!
-}*/
-
-body{
+body {
     background-color: black;
 }
 
@@ -24,7 +20,6 @@ header > div > nav {
     font-weight: bold;
     font-style: normal;
     font-size: 19px;
-
 }
 
 header > div > nav > a {
@@ -106,7 +101,6 @@ header > div > nav > a:visited {
     left: 640px;
     top: 298px;
     line-height: 1.5;
-
 }
 
 .about {
@@ -124,7 +118,6 @@ header > div > nav > a:visited {
     position: absolute;
     left: 640px;
     top: 435px;
-
 }
 
 #twitter_1 {
@@ -910,7 +903,6 @@ header > div > nav > a:visited {
     position: absolute;
     top: 5130px;
     left: 160px;
-
 }
 
 #assignment {
@@ -1168,7 +1160,7 @@ header > div > nav > a:visited {
 }
 
 #white-line_4 {
-    width: 100px;
+    width: 200px;
     height: 2px;
     background-color: #d9d9d9;
     position: absolute;
@@ -1176,7 +1168,6 @@ header > div > nav > a:visited {
     left: 0;
     right: 0;
     margin: auto;
-
 }
 
 #contact_title {
@@ -1192,7 +1183,6 @@ header > div > nav > a:visited {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 #contact_title_2 {
@@ -1209,7 +1199,6 @@ header > div > nav > a:visited {
     justify-content: center;
     align-items: center;
 }
-
 
 #forms > div > label {
     color: #d9d9d9;
@@ -1428,5 +1417,3 @@ header > div > nav > a:visited {
     text-align: center;
     color: #d9d9d9;
 }
-
-
