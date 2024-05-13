@@ -16,7 +16,6 @@ header > div > nav {
     font-weight: bold;
     font-style: normal;
     font-size: 19px;
-
 }
 
 header > div > nav > a {
@@ -37,7 +36,6 @@ header > div > nav {
     font-weight: bold;
     font-style: normal;
     font-size: 19px;
-
 }
 
 header > div > nav > a {
@@ -49,7 +47,6 @@ header > div > nav > a {
 header > div > nav > a:visited {
     color: #9A0000;
 }
-
 
 #title_box {
     position: absolute;
@@ -67,13 +64,9 @@ header > div > nav > a:visited {
     font-size: 64px;
     font-weight: bolder;
     color: #9A0000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: absolute;
-    width: 100%;
-    height: 100%;
-    top: -140px;
+    top: 160px;
+    right: 550px;
 }
 
 #white-line {
@@ -90,7 +83,7 @@ header > div > nav > a:visited {
 #assignment_box > * {
     position: absolute;
     width: 400px;
-    height: 551px;
+    height: 450px;
     background-color: #181818;
 }
 
@@ -100,7 +93,7 @@ header > div > nav > a:visited {
 }
 
 #assignment_2 {
-    top: 720px;
+    top: 670px;
     left: 50%;
     transform: translate(-50%, -50%)
 }
@@ -111,51 +104,51 @@ header > div > nav > a:visited {
 }
 
 #assignment_4 {
-    top: 1025px;
+    top: 925px;
     right: 130px;
 }
 
 #assignment_5 {
-    top: 1300px;
+    top: 1150px;
     left: 50%;
     transform: translate(-50%, -50%)
 }
 
 #assignment_6 {
-    top: 1025px;
+    top: 925px;
     left: 130px;
 }
 
 #assignment_7 {
-    top: 1605px;
+    top: 1405px;
     left: 130px;
 }
 
 #assignment_8 {
-    top: 1880px;
+    top: 1630px;
     left: 50%;
     transform: translate(-50%, -50%)
 }
 
 #assignment_9 {
-    top: 1605px;
+    top: 1405px;
     right: 130px;
 }
 
 #assignment_10 {
-    top: 2185px;
+    top: 1885px;
     right: 130px;
 }
 
 #assignment_11 {
-    top: 2185px;
+    top: 1885px;
     left: 0;
     right: 0;
     margin: auto;
 }
 
 #assignment_12 {
-    top: 2185px;
+    top: 1885px;
     left: 130px;
 }
 
@@ -182,52 +175,50 @@ header > div > nav > a:visited {
     right: 175px;
 }
 
-#a_6 {
-    top: 1025px;
-    right: 175px;
-}
-
-#a_5 {
-    top: 1025px;
-    left: 605px;
-}
-
 #a_4 {
-    top: 1025px;
+    top: 930px;
     left: 175px;
 }
 
+#a_5 {
+    top: 930px;
+    left: 605px;
+}
+
+#a_6 {
+    top: 930px;
+    right: 175px;
+}
+
 #a_7 {
-    top: 1605px;
+    top: 1405px;
     left: 175px;
 }
 
 #a_8 {
-    top: 1605px;
+    top: 1405px;
     left: 605px;
 }
 
 #a_9 {
-    top: 1605px;
+    top: 1405px;
     right: 175px;
 }
 
 #a_10 {
-    top: 2185px;
+    top: 1890px;
     left: 175px;
 }
 
 #a_11 {
-    top: 2185px;
+    top: 1890px;
     right: 605px;
-
 }
 
 #a_12 {
-    top: 2185px;
+    top: 1890px;
     right: 175px;
 }
-
 
 .p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8, .p9, .p10, .p11, .p12 {
     color: #d9d9d9;
@@ -238,73 +229,72 @@ header > div > nav > a:visited {
     text-align: center;
 }
 
-
 .p1 {
-    top: 600px;
-    left: 175px;
+    top: 620px;
+    left: 170px;
 }
 
 .p2 {
-    top: 600px;
+    top: 620px;
     left: 0;
     right: 0;
     margin: auto;
 }
 
 .p3 {
-    top: 600px;
-    right: 205px;
+    top: 620px;
+    right: 170px;
 }
 
 .p4 {
-    top: 1175px;
-    right: 175px;
+    top: 1090px;
+    right: 185px;
 }
 
 .p5 {
-    top: 1175px;
+    top: 1140px;
     left: 0;
     right: 0;
     margin: auto;
 }
 
 .p6 {
-    top: 1175px;
-    left: 205px;
+    top: 1090px;
+    left: 170px;
 }
 
 .p7 {
-    top: 1750px;
-    left: 175px;
+    top: 1570px;
+    left: 170px;
 }
 
 .p8 {
-    top: 1750px;
+    top: 1585px;
     left: 0;
     right: 0;
     margin: auto
 }
 
 .p9 {
-    top: 1750px;
-    right: 205px;
+    top: 1550px;
+    right: 170px;
 }
 
 .p10 {
-    top: 2325px;
-    left: 205px;
+    top: 2050px;
+    left: 170px;
 }
 
 .p11 {
-    top: 2325px;
+    top: 2080px;
     left: 0;
     right: 0;
     margin: auto
 }
 
 .p12 {
-    top: 2325px;
-    right: 205px;
+    top: 2040px;
+    right: 195px;
 }
 
 #view_button_1, #view_button_2, #view_button_3, #view_button_4, #view_button_5, #view_button_6, #view_button_7, #view_button_8, #view_button_9, #view_button_10, #view_button_11, #view_button_12 {
@@ -322,64 +312,63 @@ header > div > nav > a:visited {
     cursor: pointer;
 }
 
-
 #view_button_1 {
-    top: 915px;
+    top: 815px;
     left: 380px;
 }
 
 #view_button_2 {
-    top: 915px;
+    top: 815px;
     right: 605px;
 }
 
 #view_button_3 {
-    top: 915px;
+    top: 815px;
     right: 175px;
 }
 
 #view_button_4 {
-    top: 1495px;
+    top: 1295px;
     left: 380px;
 }
 
 #view_button_5 {
-    top: 1495px;
+    top: 1295px;
     right: 605px;
 }
 
 #view_button_6 {
-    top: 1495px;
+    top: 1295px;
     right: 175px;
 }
 
 #view_button_7 {
-    top: 2075px;
+    top: 1770px;
     left: 380px;
 }
 
 #view_button_8 {
-    top: 2075px;
+    top: 1770px;
     right: 605px;
 }
 
 #view_button_9 {
-    top: 2075px;
+    top: 1770px;
     right: 175px;
 }
 
 #view_button_10 {
-    top: 2655px;
+    top: 2250px;
     left: 380px;
 }
 
 #view_button_11 {
-    top: 2655px;
+    top: 2250px;
     right: 605px;
 }
 
 #view_button_12 {
-    top: 2655px;
+    top: 2250px;
     right: 175px;
 }
 
@@ -399,71 +388,70 @@ header > div > nav > a:visited {
 }
 
 #demo_button_1 {
-    top: 915px;
+    top: 815px;
     left: 175px;
 }
 
 #demo_button_2 {
-    top: 915px;
+    top: 815px;
     left: 605px;
 }
 
 #demo_button_3 {
-    top: 915px;
+    top: 815px;
     right: 380px;
 }
 
 #demo_button_4 {
-    top: 1495px;
+    top: 1295px;
     left: 175px;
 }
 
 #demo_button_5 {
-    top: 1495px;
+    top: 1295px;
     left: 605px;
 }
 
 #demo_button_6 {
-    top: 1495px;
+    top: 1295px;
     right: 380px;
 }
 
 #demo_button_7 {
-    top: 2075px;
+    top: 1770px;
     left: 175px;
 }
 
 #demo_button_8 {
-    top: 2075px;
+    top: 1770px;
     left: 605px;
 }
 
 #demo_button_9 {
-    top: 2075px;
+    top: 1770px;
     right: 380px;
 }
 
 #demo_button_10 {
-    top: 2655px;
+    top: 2250px;
     left: 175px;
 }
 
 #demo_button_11 {
-    top: 2655px;
+    top: 2250px;
     left: 605px;
 }
 
 #demo_button_12 {
-    top: 2655px;
+    top: 2250px;
     right: 380px;
 }
-
 
 /*footer*/
 
 #nav_logo {
     left: 300px;
-    top: 3000px;
+    top: 2515px;
     position: absolute;
 }
 
@@ -472,14 +460,14 @@ header > div > nav > a:visited {
     width: 100% vw;
     height: 150px;
     background-color: #111111;
-    top: 3000px;
+    top: 2495px;
     left: 0;
     right: 0;
     margin: auto;
 }
 
 #footer_nav {
-    top: 3000px;
+    top: 2450px;
     left: 0;
     right: 0;
     text-align: center;
@@ -505,7 +493,7 @@ header > div > nav > a:visited {
     position: absolute;
     width: 50px;
     height: 50px;
-    top: 3000px;
+    top: 2545px;
     left: 640px;
 }
 
@@ -513,7 +501,7 @@ header > div > nav > a:visited {
     position: absolute;
     width: 50px;
     height: 50px;
-    top: 3000px;
+    top: 2545px;
     left: 0;
     right: 0;
     margin: auto;
@@ -524,7 +512,7 @@ header > div > nav > a:visited {
     position: absolute;
     width: 50px;
     height: 50px;
-    top: 3000px;
+    top: 2545px;
     right: 640px;
 }
 
@@ -533,7 +521,7 @@ header > div > nav > a:visited {
     font-size: 16px;
     font-weight: normal;
     font-family: "Saira", sans-serif;
-    top: 3000px;
+    top: 2615px;
     left: 0;
     right: 0;
     text-align: center;
