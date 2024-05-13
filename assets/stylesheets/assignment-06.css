@@ -25,7 +25,6 @@ body {
     font-size: 16px;
     cursor: pointer;
     position: absolute;
-
 }
 
 #about_1 {
@@ -36,7 +35,6 @@ body {
 #about_2 {
     top: 300px;
     right: 600px;
-
 }
 
 #about_3 {
@@ -60,4 +58,3 @@ body {
     text-align: center;
     color: #d9d9d9;
 }
-
