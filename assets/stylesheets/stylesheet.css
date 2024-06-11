@@ -130,6 +130,26 @@ header > div > nav > a:visited {
     height: 50px;
     top: 435px;
     left: 840px;
+    transition: .5s;
+}
+
+#twitter_1::before{
+    content: '';
+    background: #ffee10;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+}
+
+#twitter_1:hover::before{
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #ffee10;
+}
+
+#twitter_1:hover{
+    color: #ffee10;
+    box-shadow: 0 0 5px #ffee10;
+    text-shadow: 0 0 5px #ffee10;
 }
 
 #github_1 {
@@ -138,6 +158,26 @@ header > div > nav > a:visited {
     height: 50px;
     top: 435px;
     left: 920px;
+    transition: .5s;
+}
+
+#github_1::before{
+    content: '';
+    background: #ffee10;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+}
+
+#github_1:hover::before{
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #ffee10;
+}
+
+#github_1:hover{
+    color: #ffee10;
+    box-shadow: 0 0 5px #ffee10;
+    text-shadow: 0 0 5px #ffee10;
 }
 
 #linkedin_icon {
@@ -146,6 +186,27 @@ header > div > nav > a:visited {
     height: 50px;
     top: 435px;
     left: 1000px;
+    transition: .5s;
+
+}
+
+#linkedin_icon::before{
+    content: '';
+    background: #ffee10;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+}
+
+#linkedin_icon:hover::before{
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #ffee10;
+}
+
+#linkedin_icon:hover{
+    color: #ffee10;
+    box-shadow: 0 0 5px #ffee10;
+    text-shadow: 0 0 5px #ffee10;
 }
 
 /*home section 3 boxes*/
@@ -163,6 +224,7 @@ header > div > nav > a:visited {
 #home > #small_box > #small_box_1 {
     top: 630px;
     left: 135px;
+    box-shadow: -25px 0 20px -20px rgba(0, 0, 0, 0.45);
 }
 
 #home > #small_box > #small_box_2 {
@@ -171,11 +233,13 @@ header > div > nav > a:visited {
     left: 0;
     right: 0;
     margin: auto;
+    box-shadow: -25px 0 20px -20px rgba(0, 0, 0, 0.45);
 }
 
 #home > #small_box > #small_box_3 {
     top: 630px;
     right: 135px;
+    box-shadow: 25px 0 20px -20px rgba(0, 0, 0, 0.45);
 }
 
 #small_boxes > h3 {
@@ -278,6 +342,8 @@ header > div > nav > a:visited {
     top: 1083px;
     left: 50%;
     transform: translate(-50%);
+    box-shadow: -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+
 }
 
 #mini_box > #mini_box_2 {
@@ -289,6 +355,8 @@ header > div > nav > a:visited {
     top: 1235px;
     left: 50%;
     transform: translate(-50%);
+    box-shadow: -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+
 }
 
 #mini_box > #mini_box_4 {
@@ -748,6 +816,26 @@ header > div > nav > a:visited {
     height: 50px;
     top: 4570px;
     left: 130px;
+    transition: .5s;
+}
+
+#twitter_2::before{
+    content: '';
+    background: #d9d9d9;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+}
+
+#twitter_2:hover::before{
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #d9d9d9;
+}
+
+#twitter_2:hover{
+    color: #d9d9d9;
+    box-shadow: 0 0 5px #d9d9d9;
+    text-shadow: 0 0 5px #d9d9d9;
 }
 
 #github_2 {
@@ -756,6 +844,26 @@ header > div > nav > a:visited {
     height: 50px;
     top: 4570px;
     left: 200px;
+    transition: .5s;
+}
+
+#github_2::before{
+    content: '';
+    background: #d9d9d9;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+}
+
+#github_2:hover::before{
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #d9d9d9;
+}
+
+#github_2:hover{
+    color: #d9d9d9;
+    box-shadow: 0 0 5px #d9d9d9;
+    text-shadow: 0 0 5px #d9d9d9;
 }
 
 #linkedin_2 {
@@ -764,6 +872,26 @@ header > div > nav > a:visited {
     height: 50px;
     top: 4570px;
     left: 270px;
+    transition: .5s;
+}
+
+#linkedin_2::before{
+    content: '';
+    background: #d9d9d9;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+}
+
+#linkedin_2:hover::before{
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #d9d9d9;
+}
+
+#linkedin_2:hover{
+    color: #d9d9d9;
+    box-shadow: 0 0 5px #d9d9d9;
+    text-shadow: 0 0 5px #d9d9d9;
 }
 
 #large_box_2 {
@@ -806,6 +934,7 @@ header > div > nav > a:visited {
     top: 4670px;
     left: 50%;
     transform: translate(-50%);
+    box-shadow: 25px 0 20px -20px rgba(0, 0, 0, 0.45);
 }
 
 #mini_box_22 {
@@ -817,6 +946,7 @@ header > div > nav > a:visited {
     top: 4825px;
     left: 50%;
     transform: translate(-50%);
+    box-shadow: 25px 0 20px -20px rgba(0, 0, 0, 0.45);
 }
 
 #mini_box_44 {
