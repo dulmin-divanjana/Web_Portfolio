@@ -1,7 +1,10 @@
+/*
 html {
     scroll-behavior: smooth;
 }
+*/
 
+/*
 body {
     background-color: black;
     width: 100%;
@@ -9,6 +12,27 @@ body {
     padding: 0;
     margin: auto;
 }
+*/
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+
+
+@keyframes move {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(300px);
+    }
+}
+
 
 header > div > img {
     top: 0;
@@ -133,7 +157,7 @@ header > div > nav > a:visited {
     transition: .5s;
 }
 
-#twitter_1::before{
+#twitter_1::before {
     content: '';
     background: #ffee10;
     transition: .5s;
@@ -141,12 +165,12 @@ header > div > nav > a:visited {
     z-index: -1;
 }
 
-#twitter_1:hover::before{
+#twitter_1:hover::before {
     transform: scale(1.1);
     box-shadow: 0 0 15px #ffee10;
 }
 
-#twitter_1:hover{
+#twitter_1:hover {
     color: #ffee10;
     box-shadow: 0 0 5px #ffee10;
     text-shadow: 0 0 5px #ffee10;
@@ -161,7 +185,7 @@ header > div > nav > a:visited {
     transition: .5s;
 }
 
-#github_1::before{
+#github_1::before {
     content: '';
     background: #ffee10;
     transition: .5s;
@@ -169,12 +193,12 @@ header > div > nav > a:visited {
     z-index: -1;
 }
 
-#github_1:hover::before{
+#github_1:hover::before {
     transform: scale(1.1);
     box-shadow: 0 0 15px #ffee10;
 }
 
-#github_1:hover{
+#github_1:hover {
     color: #ffee10;
     box-shadow: 0 0 5px #ffee10;
     text-shadow: 0 0 5px #ffee10;
@@ -190,7 +214,7 @@ header > div > nav > a:visited {
 
 }
 
-#linkedin_icon::before{
+#linkedin_icon::before {
     content: '';
     background: #ffee10;
     transition: .5s;
@@ -198,12 +222,12 @@ header > div > nav > a:visited {
     z-index: -1;
 }
 
-#linkedin_icon:hover::before{
+#linkedin_icon:hover::before {
     transform: scale(1.1);
     box-shadow: 0 0 15px #ffee10;
 }
 
-#linkedin_icon:hover{
+#linkedin_icon:hover {
     color: #ffee10;
     box-shadow: 0 0 5px #ffee10;
     text-shadow: 0 0 5px #ffee10;
@@ -451,6 +475,7 @@ header > div > nav > a:visited {
     width: 100%;
     height: 100%;
     top: 1250px;
+    left: 7px;
 }
 
 #project_title_2 {
@@ -465,6 +490,7 @@ header > div > nav > a:visited {
     width: 100%;
     height: 100%;
     top: 1300px;
+    left: 7px;
 }
 
 #white-line {
@@ -819,7 +845,7 @@ header > div > nav > a:visited {
     transition: .5s;
 }
 
-#twitter_2::before{
+#twitter_2::before {
     content: '';
     background: #d9d9d9;
     transition: .5s;
@@ -827,12 +853,12 @@ header > div > nav > a:visited {
     z-index: -1;
 }
 
-#twitter_2:hover::before{
+#twitter_2:hover::before {
     transform: scale(1.1);
     box-shadow: 0 0 15px #d9d9d9;
 }
 
-#twitter_2:hover{
+#twitter_2:hover {
     color: #d9d9d9;
     box-shadow: 0 0 5px #d9d9d9;
     text-shadow: 0 0 5px #d9d9d9;
@@ -847,7 +873,7 @@ header > div > nav > a:visited {
     transition: .5s;
 }
 
-#github_2::before{
+#github_2::before {
     content: '';
     background: #d9d9d9;
     transition: .5s;
@@ -855,12 +881,12 @@ header > div > nav > a:visited {
     z-index: -1;
 }
 
-#github_2:hover::before{
+#github_2:hover::before {
     transform: scale(1.1);
     box-shadow: 0 0 15px #d9d9d9;
 }
 
-#github_2:hover{
+#github_2:hover {
     color: #d9d9d9;
     box-shadow: 0 0 5px #d9d9d9;
     text-shadow: 0 0 5px #d9d9d9;
@@ -875,7 +901,7 @@ header > div > nav > a:visited {
     transition: .5s;
 }
 
-#linkedin_2::before{
+#linkedin_2::before {
     content: '';
     background: #d9d9d9;
     transition: .5s;
@@ -883,12 +909,12 @@ header > div > nav > a:visited {
     z-index: -1;
 }
 
-#linkedin_2:hover::before{
+#linkedin_2:hover::before {
     transform: scale(1.1);
     box-shadow: 0 0 15px #d9d9d9;
 }
 
-#linkedin_2:hover{
+#linkedin_2:hover {
     color: #d9d9d9;
     box-shadow: 0 0 5px #d9d9d9;
     text-shadow: 0 0 5px #d9d9d9;
@@ -1337,7 +1363,7 @@ header > div > nav > a:visited {
 #forms > div > label {
     color: #d9d9d9;
     font-family: "Roboto", sans-serif;
-    font-size: 27px;
+    font-size: 20px;
     font-weight: lighter;
     position: absolute;
 }
@@ -1349,23 +1375,23 @@ header > div > nav > a:visited {
 
 #label_2 {
     top: 7200px;
-    right: 565px;
+    right: 590px;
 }
 
 #label_3 {
-    top: 7350px;
+    top: 7310px;
     left: 200px;
 }
 
 #label_4 {
-    top: 7350px;
+    top: 7310px;
     left: 830px;
 }
 
 #forms > div > input {
     background-color: black;
     width: 484px;
-    height: 60px;
+    height: 35px;
     border: 1px solid #CB1D27;
     position: absolute;
     color: #d9d9d9;
@@ -1375,22 +1401,22 @@ header > div > nav > a:visited {
 }
 
 #first_name {
-    top: 7245px;
+    top: 7235px;
     left: 200px;
 }
 
 #last_name {
-    top: 7245px;
+    top: 7235px;
     right: 200px;
 }
 
 #email {
-    top: 7400px;
+    top: 7345px;
     left: 200px;
 }
 
 #phone_number {
-    top: 7400px;
+    top: 7345px;
     right: 200px;
 }
 
@@ -1399,26 +1425,12 @@ header > div > nav > a:visited {
     left: 200px;
 }
 
-#topics {
-    position: absolute;
-    top: 7550px;
-    left: 200px;
-    width: 1122px;
-    height: 60px;
-    background-color: black;
-    font-family: "Roboto", sans-serif;
-    font-size: 25px;
-    font-weight: lighter;
-    color: #d9d9d9;
-    border: 1px solid #CB1D27;
-}
-
 #message {
     position: absolute;
-    top: 7700px;
+    top: 7455px;
     left: 200px;
     width: 1122px;
-    height: 268px;
+    height: 115px;
     border: 1px solid #CB1D27;
     font-weight: lighter;
     font-family: "Roboto", sans-serif;
@@ -1429,53 +1441,33 @@ header > div > nav > a:visited {
 
 #message_1 {
     position: absolute;
-    top: 7650px;
+    top: 7420px;
     left: 200px;
-}
-
-#terms {
-    position: absolute;
-    top: 8000px;
-    left: 270px;
-    color: #d9d9d9;
-    font-family: "Roboto", sans-serif;
-    font-size: 27px;
-    font-weight: lighter;
-}
-
-#checkbox {
-    position: absolute;
-    top: 6285px;
-    left: 202px;
-    width: 25px;
-    height: 25px;
-    background-color: black;
 }
 
 #submit {
     position: absolute;
-    top: 8100px;
-    left: 0;
-    right: 0;
-    margin: auto;
-    font-size: 20px;
+    top: 7650px;
+    left: 700px;
+    font-size: 18px;
     font-weight: bolder;
     font-family: "Roboto", sans-serif;
     text-decoration: none;
     background-color: #CB1D27;
-    width: 156px;
-    height: 53px;
+    width: 130px;
+    height: 50px;
     border: none;
     outline: none;
     color: #d9d9d9;
     cursor: pointer;
+    border-radius: 2px;
 }
 
 /*footer section*/
 
 #nav_logo {
     left: 300px;
-    top: 8370px;
+    top: 7820px;
     position: absolute;
 }
 
@@ -1484,14 +1476,14 @@ header > div > nav > a:visited {
     width: 100%;
     height: 150px;
     background-color: #111111;
-    top: 8350px;
+    top: 7800px;
     left: 0;
     right: 0;
     margin: auto;
 }
 
 #footer_navigations {
-    top: 8300px;
+    top: 7770px;
     left: 0;
     right: 0;
     text-align: center;
@@ -1517,7 +1509,7 @@ header > div > nav > a:visited {
     position: absolute;
     width: 50px;
     height: 50px;
-    top: 8400px;
+    top: 7845px;
     left: 640px;
 }
 
@@ -1525,7 +1517,7 @@ header > div > nav > a:visited {
     position: absolute;
     width: 50px;
     height: 50px;
-    top: 8400px;
+    top: 7845px;
     left: 0;
     right: 0;
     margin: auto;
@@ -1536,7 +1528,7 @@ header > div > nav > a:visited {
     position: absolute;
     width: 50px;
     height: 50px;
-    top: 8400px;
+    top: 7845px;
     right: 640px;
 }
 
@@ -1545,7 +1537,7 @@ header > div > nav > a:visited {
     font-size: 16px;
     font-weight: normal;
     font-family: "Saira", sans-serif;
-    top: 8475px;
+    top: 7925px;
     left: 0;
     right: 0;
     text-align: center;
